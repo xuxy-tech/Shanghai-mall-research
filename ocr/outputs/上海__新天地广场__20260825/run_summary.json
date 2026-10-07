@@ -1,0 +1,42 @@
+{
+  "mall_name": "新天地广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__新天地广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.47961292558954,
+    "frame_count": 3764,
+    "duration_sec": 64.3643111111111,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 77,
+  "card_observations": 364,
+  "unique_cards": 95,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新天地广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新天地广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新天地广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新天地广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 4383,
+    "title_candidates": 473,
+    "rating_anchors": 335,
+    "unrated_anchors": 6,
+    "metadata_anchors": 534,
+    "raw_anchors": 875,
+    "matched_anchors": 855,
+    "matched_anchor_titles": 364,
+    "unmatched_anchors": 20,
+    "accepted_cards": 364,
+    "rated_cards": 327,
+    "unrated_cards": 6,
+    "missing_rating_cards": 31,
+    "missing_category_cards": 3,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 9,
+  "research_eligible_records": 85,
+  "excluded_new_store_records": 6,
+  "excluded_unrated_records": 4,
+  "rated_records": 85,
+  "unrated_records": 4,
+  "missing_rating_records": 6
+}

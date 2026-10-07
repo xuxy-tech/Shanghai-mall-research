@@ -1,0 +1,42 @@
+{
+  "mall_name": "凯德晶萃广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__凯德晶萃广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.9728612301981,
+    "frame_count": 10667,
+    "duration_sec": 180.8798111111111,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 223,
+  "card_observations": 1082,
+  "unique_cards": 238,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__凯德晶萃广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__凯德晶萃广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__凯德晶萃广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__凯德晶萃广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12030,
+    "title_candidates": 1379,
+    "rating_anchors": 968,
+    "unrated_anchors": 22,
+    "metadata_anchors": 1440,
+    "raw_anchors": 2430,
+    "matched_anchors": 2400,
+    "matched_anchor_titles": 1082,
+    "unmatched_anchors": 30,
+    "accepted_cards": 1082,
+    "rated_cards": 959,
+    "unrated_cards": 22,
+    "missing_rating_cards": 101,
+    "missing_category_cards": 2,
+    "missing_floor_cards": 3
+  },
+  "records_requiring_review": 11,
+  "research_eligible_records": 210,
+  "excluded_new_store_records": 21,
+  "excluded_unrated_records": 7,
+  "rated_records": 210,
+  "unrated_records": 7,
+  "missing_rating_records": 21
+}

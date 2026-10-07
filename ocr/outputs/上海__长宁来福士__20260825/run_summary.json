@@ -1,0 +1,42 @@
+{
+  "mall_name": "长宁来福士",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__长宁来福士__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.524746642369124,
+    "frame_count": 14472,
+    "duration_sec": 247.28001111111112,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 338,
+  "card_observations": 1663,
+  "unique_cards": 333,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长宁来福士__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长宁来福士__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长宁来福士__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长宁来福士__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 18176,
+    "title_candidates": 2015,
+    "rating_anchors": 1416,
+    "unrated_anchors": 168,
+    "metadata_anchors": 2065,
+    "raw_anchors": 3649,
+    "matched_anchors": 3598,
+    "matched_anchor_titles": 1663,
+    "unmatched_anchors": 51,
+    "accepted_cards": 1663,
+    "rated_cards": 1398,
+    "unrated_cards": 165,
+    "missing_rating_cards": 100,
+    "missing_category_cards": 14,
+    "missing_floor_cards": 61
+  },
+  "records_requiring_review": 18,
+  "research_eligible_records": 287,
+  "excluded_new_store_records": 12,
+  "excluded_unrated_records": 34,
+  "rated_records": 285,
+  "unrated_records": 34,
+  "missing_rating_records": 14
+}

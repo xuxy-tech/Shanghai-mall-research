@@ -1,0 +1,42 @@
+{
+  "mall_name": "西岸梦中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__西岸梦中心__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.96023370733837,
+    "frame_count": 6841,
+    "duration_sec": 116.02735555555554,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 167,
+  "card_observations": 826,
+  "unique_cards": 166,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__西岸梦中心__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__西岸梦中心__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__西岸梦中心__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__西岸梦中心__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9210,
+    "title_candidates": 1006,
+    "rating_anchors": 763,
+    "unrated_anchors": 58,
+    "metadata_anchors": 1203,
+    "raw_anchors": 2024,
+    "matched_anchors": 1978,
+    "matched_anchor_titles": 826,
+    "unmatched_anchors": 46,
+    "accepted_cards": 826,
+    "rated_cards": 744,
+    "unrated_cards": 55,
+    "missing_rating_cards": 27,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 7,
+  "research_eligible_records": 149,
+  "excluded_new_store_records": 4,
+  "excluded_unrated_records": 13,
+  "rated_records": 149,
+  "unrated_records": 13,
+  "missing_rating_records": 4
+}

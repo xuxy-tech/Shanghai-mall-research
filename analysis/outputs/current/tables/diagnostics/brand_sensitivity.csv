@@ -1,0 +1,7 @@
+﻿brand_identity,singleton_policy,weak_singletons_in_definition,brand_count,singleton_count,singleton_share,jaccard_mean,jaccard_median,jaccard_max
+strict_current,keep_all,478,7803,5833,0.7475,0.0399,0.0326,0.1667
+strict_current,drop_weak_singletons,478,7325,5355,0.7311,0.0413,0.0336,0.1736
+latin_core_merged,keep_all,450,7435,5412,0.7279,0.0424,0.0351,0.1949
+latin_core_merged,drop_weak_singletons,450,6985,4962,0.7104,0.0438,0.0364,0.202
+strip_suffix_merged,keep_all,447,7388,5355,0.7248,0.0436,0.0363,0.1949
+strip_suffix_merged,drop_weak_singletons,447,6941,4908,0.7071,0.045,0.0373,0.202

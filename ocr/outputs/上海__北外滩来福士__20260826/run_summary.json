@@ -1,0 +1,42 @@
+{
+  "mall_name": "北外滩来福士",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__北外滩来福士__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.15723304225504,
+    "frame_count": 15344,
+    "duration_sec": 259.3765666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 298,
+  "card_observations": 1448,
+  "unique_cards": 259,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__北外滩来福士__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__北外滩来福士__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__北外滩来福士__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__北外滩来福士__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 16517,
+    "title_candidates": 1722,
+    "rating_anchors": 1313,
+    "unrated_anchors": 76,
+    "metadata_anchors": 1924,
+    "raw_anchors": 3313,
+    "matched_anchors": 3255,
+    "matched_anchor_titles": 1448,
+    "unmatched_anchors": 58,
+    "accepted_cards": 1448,
+    "rated_cards": 1291,
+    "unrated_cards": 74,
+    "missing_rating_cards": 83,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 6,
+  "research_eligible_records": 229,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 20,
+  "rated_records": 228,
+  "unrated_records": 20,
+  "missing_rating_records": 11
+}

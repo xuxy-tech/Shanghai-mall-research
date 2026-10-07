@@ -1,0 +1,42 @@
+{
+  "mall_name": "白玉兰广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__白玉兰广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.14737948861686,
+    "frame_count": 8727,
+    "duration_sec": 147.5466888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 181,
+  "card_observations": 882,
+  "unique_cards": 181,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__白玉兰广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__白玉兰广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__白玉兰广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__白玉兰广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 10040,
+    "title_candidates": 1034,
+    "rating_anchors": 750,
+    "unrated_anchors": 93,
+    "metadata_anchors": 1160,
+    "raw_anchors": 2003,
+    "matched_anchors": 1962,
+    "matched_anchor_titles": 882,
+    "unmatched_anchors": 41,
+    "accepted_cards": 882,
+    "rated_cards": 733,
+    "unrated_cards": 92,
+    "missing_rating_cards": 57,
+    "missing_category_cards": 42,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 16,
+  "research_eligible_records": 156,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 17,
+  "rated_records": 156,
+  "unrated_records": 17,
+  "missing_rating_records": 8
+}

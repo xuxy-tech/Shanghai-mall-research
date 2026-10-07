@@ -1,0 +1,42 @@
+{
+  "mall_name": "第一百货",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__第一百货__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.157434568024094,
+    "frame_count": 8362,
+    "duration_sec": 141.35163333333333,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 169,
+  "card_observations": 917,
+  "unique_cards": 238,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一百货__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一百货__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一百货__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一百货__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 7171,
+    "title_candidates": 1085,
+    "rating_anchors": 771,
+    "unrated_anchors": 113,
+    "metadata_anchors": 1109,
+    "raw_anchors": 1993,
+    "matched_anchors": 1968,
+    "matched_anchor_titles": 917,
+    "unmatched_anchors": 25,
+    "accepted_cards": 917,
+    "rated_cards": 763,
+    "unrated_cards": 113,
+    "missing_rating_cards": 41,
+    "missing_category_cards": 24,
+    "missing_floor_cards": 10
+  },
+  "records_requiring_review": 15,
+  "research_eligible_records": 200,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 28,
+  "rated_records": 200,
+  "unrated_records": 28,
+  "missing_rating_records": 10
+}

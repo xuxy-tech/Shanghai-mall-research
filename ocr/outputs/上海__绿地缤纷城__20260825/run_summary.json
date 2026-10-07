@@ -1,0 +1,42 @@
+{
+  "mall_name": "绿地缤纷城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__绿地缤纷城__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.2792294138308,
+    "frame_count": 10824,
+    "duration_sec": 182.59346666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 245,
+  "card_observations": 1194,
+  "unique_cards": 239,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__绿地缤纷城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__绿地缤纷城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__绿地缤纷城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__绿地缤纷城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 13220,
+    "title_candidates": 1465,
+    "rating_anchors": 976,
+    "unrated_anchors": 162,
+    "metadata_anchors": 1476,
+    "raw_anchors": 2614,
+    "matched_anchors": 2581,
+    "matched_anchor_titles": 1194,
+    "unmatched_anchors": 33,
+    "accepted_cards": 1194,
+    "rated_cards": 966,
+    "unrated_cards": 158,
+    "missing_rating_cards": 70,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 49
+  },
+  "records_requiring_review": 8,
+  "research_eligible_records": 196,
+  "excluded_new_store_records": 11,
+  "excluded_unrated_records": 32,
+  "rated_records": 194,
+  "unrated_records": 32,
+  "missing_rating_records": 13
+}

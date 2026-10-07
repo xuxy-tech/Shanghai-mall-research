@@ -1,0 +1,42 @@
+{
+  "mall_name": "长风大悦城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__长风大悦城__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.06677345673519,
+    "frame_count": 9956,
+    "duration_sec": 168.555,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 212,
+  "card_observations": 1019,
+  "unique_cards": 182,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长风大悦城__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长风大悦城__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长风大悦城__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长风大悦城__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12489,
+    "title_candidates": 1295,
+    "rating_anchors": 860,
+    "unrated_anchors": 77,
+    "metadata_anchors": 1432,
+    "raw_anchors": 2369,
+    "matched_anchors": 2291,
+    "matched_anchor_titles": 1019,
+    "unmatched_anchors": 78,
+    "accepted_cards": 1019,
+    "rated_cards": 849,
+    "unrated_cards": 75,
+    "missing_rating_cards": 95,
+    "missing_category_cards": 5,
+    "missing_floor_cards": 3
+  },
+  "records_requiring_review": 4,
+  "research_eligible_records": 154,
+  "excluded_new_store_records": 14,
+  "excluded_unrated_records": 14,
+  "rated_records": 154,
+  "unrated_records": 14,
+  "missing_rating_records": 14
+}

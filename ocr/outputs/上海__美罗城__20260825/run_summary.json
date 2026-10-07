@@ -1,0 +1,42 @@
+{
+  "mall_name": "美罗城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__美罗城__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.23260166502106,
+    "frame_count": 7365,
+    "duration_sec": 126.47554444444444,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 173,
+  "card_observations": 838,
+  "unique_cards": 229,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__美罗城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__美罗城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__美罗城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__美罗城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9448,
+    "title_candidates": 1059,
+    "rating_anchors": 786,
+    "unrated_anchors": 22,
+    "metadata_anchors": 1216,
+    "raw_anchors": 2024,
+    "matched_anchors": 1972,
+    "matched_anchor_titles": 838,
+    "unmatched_anchors": 52,
+    "accepted_cards": 838,
+    "rated_cards": 765,
+    "unrated_cards": 22,
+    "missing_rating_cards": 51,
+    "missing_category_cards": 5,
+    "missing_floor_cards": 13
+  },
+  "records_requiring_review": 13,
+  "research_eligible_records": 210,
+  "excluded_new_store_records": 12,
+  "excluded_unrated_records": 7,
+  "rated_records": 209,
+  "unrated_records": 7,
+  "missing_rating_records": 13
+}

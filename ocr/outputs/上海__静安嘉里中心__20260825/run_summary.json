@@ -1,0 +1,42 @@
+{
+  "mall_name": "静安嘉里中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__静安嘉里中心__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.769802469287455,
+    "frame_count": 8718,
+    "duration_sec": 148.3414888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 198,
+  "card_observations": 1040,
+  "unique_cards": 225,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安嘉里中心__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安嘉里中心__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安嘉里中心__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安嘉里中心__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9341,
+    "title_candidates": 1240,
+    "rating_anchors": 985,
+    "unrated_anchors": 37,
+    "metadata_anchors": 1306,
+    "raw_anchors": 2328,
+    "matched_anchors": 2266,
+    "matched_anchor_titles": 1040,
+    "unmatched_anchors": 62,
+    "accepted_cards": 1040,
+    "rated_cards": 956,
+    "unrated_cards": 36,
+    "missing_rating_cards": 48,
+    "missing_category_cards": 7,
+    "missing_floor_cards": 94
+  },
+  "records_requiring_review": 7,
+  "research_eligible_records": 212,
+  "excluded_new_store_records": 6,
+  "excluded_unrated_records": 7,
+  "rated_records": 211,
+  "unrated_records": 7,
+  "missing_rating_records": 7
+}

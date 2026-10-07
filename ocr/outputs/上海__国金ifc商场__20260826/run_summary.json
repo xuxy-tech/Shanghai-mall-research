@@ -1,0 +1,42 @@
+{
+  "mall_name": "国金ifc商场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__国金ifc商场__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.37516411358743,
+    "frame_count": 13115,
+    "duration_sec": 220.8836,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 249,
+  "card_observations": 1350,
+  "unique_cards": 262,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__国金ifc商场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__国金ifc商场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__国金ifc商场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__国金ifc商场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 11566,
+    "title_candidates": 1558,
+    "rating_anchors": 1271,
+    "unrated_anchors": 51,
+    "metadata_anchors": 1917,
+    "raw_anchors": 3239,
+    "matched_anchors": 3154,
+    "matched_anchor_titles": 1350,
+    "unmatched_anchors": 85,
+    "accepted_cards": 1350,
+    "rated_cards": 1243,
+    "unrated_cards": 50,
+    "missing_rating_cards": 57,
+    "missing_category_cards": 8,
+    "missing_floor_cards": 6
+  },
+  "records_requiring_review": 17,
+  "research_eligible_records": 243,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 11,
+  "rated_records": 243,
+  "unrated_records": 11,
+  "missing_rating_records": 8
+}

@@ -1,0 +1,5 @@
+﻿n_factors,inference,final_advi_loss,chi_square_discrepancy,holdout_mae,holdout_mean_log_score,holdout_store_count,elapsed_sec
+1,advi,7012.2,5816.4,0.339,-3.474131,1451,9.4
+2,advi,6831.9,4766.9,0.3376,-3.446928,1451,4.6
+3,advi,6867.3,4236.4,0.3353,-3.440754,1451,4.6
+4,advi,6895.0,3752.4,0.3326,-3.433936,1451,4.9

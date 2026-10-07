@@ -1,0 +1,42 @@
+{
+  "mall_name": "世贸广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__世贸广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.33477308150627,
+    "frame_count": 5256,
+    "duration_sec": 90.10063333333333,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 125,
+  "card_observations": 622,
+  "unique_cards": 141,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世贸广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世贸广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世贸广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世贸广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 6165,
+    "title_candidates": 732,
+    "rating_anchors": 538,
+    "unrated_anchors": 87,
+    "metadata_anchors": 752,
+    "raw_anchors": 1377,
+    "matched_anchors": 1325,
+    "matched_anchor_titles": 622,
+    "unmatched_anchors": 52,
+    "accepted_cards": 622,
+    "rated_cards": 502,
+    "unrated_cards": 86,
+    "missing_rating_cards": 34,
+    "missing_category_cards": 14,
+    "missing_floor_cards": 31
+  },
+  "records_requiring_review": 10,
+  "research_eligible_records": 115,
+  "excluded_new_store_records": 5,
+  "excluded_unrated_records": 21,
+  "rated_records": 115,
+  "unrated_records": 21,
+  "missing_rating_records": 5
+}

@@ -1,0 +1,35 @@
+{
+  "coordinate_system": "GCJ-02",
+  "queried_at": "2026-10-06",
+  "source": "Amap Place Text API",
+  "malls": {
+    "上海荟聚中心": {
+      "amap_name": "上海荟聚Livat",
+      "district": "长宁区",
+      "address": "金钟路788号",
+      "longitude": 121.356695,
+      "latitude": 31.221909
+    },
+    "奉贤宝龙城市广场": {
+      "amap_name": "奉贤宝龙广场",
+      "district": "奉贤区",
+      "address": "南桥镇航南公路5639号5699号",
+      "longitude": 121.462792,
+      "latitude": 30.929791
+    },
+    "虹桥新天地": {
+      "amap_name": "虹桥新天地购物中心",
+      "district": "闵行区",
+      "address": "申长路688号",
+      "longitude": 121.315438,
+      "latitude": 31.193801
+    },
+    "长泰广场": {
+      "amap_name": "长泰广场",
+      "district": "浦东新区",
+      "address": "祖冲之路1239弄",
+      "longitude": 121.601958,
+      "latitude": 31.205857
+    }
+  }
+}

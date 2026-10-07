@@ -1,0 +1,42 @@
+{
+  "mall_name": "奉贤龙湖天街",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__奉贤龙湖天街__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.69024603174089,
+    "frame_count": 12074,
+    "duration_sec": 205.72413333333333,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 282,
+  "card_observations": 1411,
+  "unique_cards": 321,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤龙湖天街__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤龙湖天街__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤龙湖天街__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤龙湖天街__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 15034,
+    "title_candidates": 1695,
+    "rating_anchors": 1048,
+    "unrated_anchors": 307,
+    "metadata_anchors": 1924,
+    "raw_anchors": 3279,
+    "matched_anchors": 3215,
+    "matched_anchor_titles": 1411,
+    "unmatched_anchors": 64,
+    "accepted_cards": 1411,
+    "rated_cards": 1027,
+    "unrated_cards": 304,
+    "missing_rating_cards": 80,
+    "missing_category_cards": 12,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 19,
+  "research_eligible_records": 249,
+  "excluded_new_store_records": 11,
+  "excluded_unrated_records": 61,
+  "rated_records": 245,
+  "unrated_records": 61,
+  "missing_rating_records": 15
+}

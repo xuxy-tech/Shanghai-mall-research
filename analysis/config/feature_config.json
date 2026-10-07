@@ -1,0 +1,72 @@
+{
+  "config_name": "mall_consumption_ecosystem_features",
+  "config_version": "2026-08-26",
+  "master_input": "data/master_stores.csv",
+  "metadata_input": "analysis/outputs/current/tables/core/mall_metadata.csv",
+  "output_dir": "analysis/outputs/current",
+
+  "subculture_categories": [
+    "潮玩礼品",
+    "桌游棋牌",
+    "VR体验",
+    "游戏电竞",
+    "密室逃脱",
+    "DIY手工",
+    "演出活动"
+  ],
+  "light_consumption_categories": [
+    "茶饮果汁",
+    "美甲美睫",
+    "撸宠购宠"
+  ],
+  "sitdown_dining_categories": [
+    "日料",
+    "西餐",
+    "火锅",
+    "江浙菜",
+    "粤菜",
+    "烧烤烤肉",
+    "川菜",
+    "湘菜",
+    "东南亚料理",
+    "韩料",
+    "北京菜",
+    "其它地方菜",
+    "自助餐",
+    "东北菜",
+    "云南菜",
+    "西北菜",
+    "鲁菜",
+    "其它"
+  ],
+  "experiential_categories": [
+    "密室逃脱",
+    "游戏电竞",
+    "VR体验",
+    "桌游棋牌",
+    "DIY手工",
+    "演出活动",
+    "电影院",
+    "儿童乐园",
+    "亲子活动",
+    "健身中心",
+    "球馆",
+    "瑜伽普拉提",
+    "舞蹈"
+  ],
+
+  "price": {
+    "min_yuan": 20,
+    "max_yuan": 1000,
+    "min_samples_per_mall": 5,
+    "log_transform": true
+  },
+  "chain": {
+    "head_chain_min_malls": 8
+  },
+  "notes": {
+    "subculture": "不含咖啡与面包甜点：与无争议年轻业态的共址相关性仅 -0.11 与 +0.03",
+    "price": "只取正餐，避免奶茶店占比拉低均价；截尾在正餐口径下作用有限但保留作防御",
+    "head_chain": "阈值 8-12 之间排序稳定 (r=0.969)；低阈值(>=2)与高阈值(>=12)相关仅 0.336，测量不同构念"
+  }
+}

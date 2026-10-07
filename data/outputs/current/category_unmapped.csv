@@ -1,0 +1,143 @@
+﻿category_raw,source_record_count,mall_count,sample_merchant_names,suggested_action
+,155,53,BigKiss | Eland | IPSTAR·潮玩星球·主题店 | JUST·FOTO大头贴体验店 | JUST·FOTO大头贴自助店 | JUST·FOTO头贴助店 | M&DCOLLECTIONSPA | MOUSSY&SLY,discard_ocr_category_noise
+停车场,55,41,BFC外滩金融中心停车场 | OneITC-停车场 | k11购物艺术中心-停车场 | 万达广场-停车场 | 上海世茂广场-停车场 | 上海久光百货-停车场 | 上海国金中心-停车场 | 上海恒隆广场-停车场,review_or_edit_category_mapping
+充电站/桩,45,29,TESLA特斯拉超级充电站 | 上海崇明区商业广场电动汽车充电站 | 上海青浦万达茂地下B1快充站-趣 | 云快充BP快速充电站(上海静安大 | 充电站 | 充电站(上海真如环宇城MAX地下. | 国家电网充电站 | 国家电网汽车充电站,review_or_edit_category_mapping
+智能按,30,19,乐摩吧 | 乐摩吧3F一店 | 乐摩吧B1二店 | 示摩吧,review_or_edit_category_mapping
+智能按.,29,19,乐摩吧 | 乐摩吧4F二店 | 示厚吧 | 示摩吧,review_or_edit_category_mapping
+营业网点,28,19,东方网点 | 中信银行 | 中国农业银行 | 中国工商银行 | 中国民生银行 | 中国邮政储蓄银行 | 中国银行 | 北京银行,review_or_edit_category_mapping
+智能按摩空间,25,18,乐摩吧 | 乐摩吧2F店 | 荣泰按摩椅,review_or_edit_category_mapping
+综合经销商,22,14,ID·与众(金标大众)空间-上海五角 | VOYAH | 上海尉米汽车用厂服务有限公可 | 上海百联又一城 | 上海蔚来汽车用户服务有限公司 | 东风日产 | 乐道城市展厅 | 乐道城市展厅(上海金山万达),review_or_edit_category_mapping
+GF,20,2,JUST·FOTO大头贴自助店 | MiRi眼镜连锁·蔡司·尼康控优点 | ROSEALYSSA | SWEETHOUSE电玩馆 | unicat | 上海哈尔滨食品厂 | 九木杂物社 | 作业帮学习机,review_or_edit_category_mapping
+证券投资,16,11,IPSOS公司 | NEC信息系统(中国)有限公司上 | 上海万达广场投资有限公司 | 上海东亚期货有限公司 | 上海麦迪生利私募基金管理有限公司 | 丽丰控股有限公司 | 光大保德信基金管理有限公司 | 光大信托上海区域总部,review_or_edit_category_mapping
+月,14,11,GUJIN古今内衣 | ICCINICVVCCINIE | IRO | JNBY | KIDBLUE | LIOU&LANS了岚 | LeSportsac乐播诗 | RogerVivier,discard_ocr_category_noise
+B,12,1,IREMY艾瑞美时尚假发 | KPRO肯律轻食 | MINGSI | broadcast播 | sunglassfiery | 大馥·炭火烧肉酒场 | 宅玩公社switch游戏俱乐部 | 巴黎贝甜,review_or_edit_category_mapping
+智能自助设施,10,6,丰e足食自动售货机 | 丰巢智能柜 | 佰丁友四共子孜 | 小铁自助寄存 | 无印同学·图文照片·自助打印·广 | 无印回字·图文照片·白助打印 | 无印问子·图义照片·日助打印 | 格子麦田共享按摩,review_or_edit_category_mapping
+酒店,10,10,CONRADhotel | STREGIS | ZORHOME | 上海徐汇滨江逸扉酒店 | 上海环球港凯悦酒店·宴会厅 | 亲璞宴会酒店 | 朗至公寓 | 窗苔大悦城店,review_or_edit_category_mapping
+智...,9,9,乐摩吧 | 示摩吧,review_or_edit_category_mapping
+智能按...,9,9,乐摩吧 | 乐摩吧4F一店 | 示摩吧,review_or_edit_category_mapping
+豪华型,9,8,上海世博木棉花凯悦臻选酒店 | 上海国金汇服务式公寓 | 上海外滩瑞吉酒店 | 上海居舍UpperHouseShanghai | 上海康莱德酒店 | 上海浦东丽思卡尔顿酒店 | 上海浦东嘉里大酒店 | 上海雅诗阁淮海路新天地服务公寓,review_or_edit_category_mapping
+ATM自助网点,8,8,中信银行ATM | 中国工商银行24小时目助银行 | 中国银行ATM | 中国银行自助银行 | 佰简行AIM | 招商银行24小时自助银行 | 汇丰银行ATM | 自动提款机,review_or_edit_category_mapping
+展览,8,7,GAMEON·埃德加·普兰斯潮流艺 | 上海X美术馆ThePoolbyXMus | 孙悟空×铁臂阿童木《用十万马力 | 情感互动体验展穿越人海遇到你 | 摩登巴赫香氛艺术馆 | 曼游中国 | 第三届上海诺亚设计展,review_or_edit_category_mapping
+经济型,8,7,上海喜舍高颜值酒店 | 居贝乐酒店公寓 | 浦东嘉里城服务式公寓 | 浦乐嘉生城服务式公禹 | 海友酒店 | 竞放电竞酒店 | 网鱼电竞酒店 | 酒店,review_or_edit_category_mapping
+房产中介,6,5,南厢观宁府城市展厅 | 宝龙广场租售中心 | 恒升地产 | 混沌豪宅 | 瑞稼地产 | 秦政房产,review_or_edit_category_mapping
+保险公司,4,3,中国平安 | 中国平安人寿保险 | 永达理保险经纪有限公司 | 荷全保险资产管理有限公司,review_or_edit_category_mapping
+充电站.,4,4,小桔充电 | 滴滴充电汽车充电站 | 特来电汽车充电站,review_or_edit_category_mapping
+公园景点售票处,3,2,上海世茂广场旅游咨询站 | 上海正风 | 百丽宫影城票房处,review_or_edit_category_mapping
+景区设施,3,3,游客中心 | 游客服务中心 | 瑞虹太阳宫-服务台,review_or_edit_category_mapping
+智能.,3,3,OSIM傲胜 | 乐摩吧,review_or_edit_category_mapping
+智能按..,3,3,乐摩吧 | 乐摩吧3F二店,review_or_edit_category_mapping
+更,3,3,上海海洋世界沉浸式体验馆 | 母婴室 | 集合石·运动潮玩乐园·生日派对,review_or_edit_category_mapping
+154/商场内,2,2,金汇馆·汤泉足道SPA | 鬼十八密室逃脱·真人NPC·沉浸,discard_ocr_category_noise
+BF,2,1,开迈斯汽车充电站 | 长甲集团,review_or_edit_category_mapping
+人力资源,2,1,刚性无儿 | 前程无忧,review_or_edit_category_mapping
+休闲.,2,2,康道养生 | 月宫3D影院式足道,review_or_edit_category_mapping
+充电.,2,2,小桔充电站 | 特来电汽车充电站,review_or_edit_category_mapping
+售票点,2,2,百美汇电影院小卖部 | 美罗城-上剧场售票处,review_or_edit_category_mapping
+家饰.,2,2,水星 | 罗莱超柔床品,review_or_edit_category_mapping
+日,2,2,一板一肉 | 橙子公司团建·射箭保龄球·露营蹦,review_or_edit_category_mapping
+智能,2,2,Aqarahome绿米智能家居体验馆 | 华为鸿蒙智家授权专区,review_or_edit_category_mapping
+舒适型,2,2,万信R酒店 | 享阖服务式公寓,review_or_edit_category_mapping
+酒店婚宴/宴会,2,2,世博源公馆·喜宴·宝宝宴·江景宴 | 晶采轩·宴会厅,review_or_edit_category_mapping
+银行,2,2,中国农业银行 | 招商银行,review_or_edit_category_mapping
+1055/商场内,1,1,HAZZYS哈吉斯,discard_ocr_category_noise
+115/商场内,1,1,大吉,discard_ocr_category_noise
+124/商场内,1,1,异时刻机械解谜密室·跳格子,discard_ocr_category_noise
+1577/商场内,1,1,On昂跑,discard_ocr_category_noise
+1595/商场内,1,1,沼田双天妇罗,discard_ocr_category_noise
+20/商场内,1,1,鮨人饭团,discard_ocr_category_noise
+2599/商场内,1,1,小米汽车,discard_ocr_category_noise
+3450/商场内,1,1,OPPO体验店,discard_ocr_category_noise
+3587/商场内,1,1,ARC'TERYX始祖鸟,discard_ocr_category_noise
+3737/商场内,1,1,vivo官方授权体验店,discard_ocr_category_noise
+4175/商场内,1,1,KOYO蛋白好漾医美,discard_ocr_category_noise
+4277/商场内,1,1,DJI大疆,discard_ocr_category_noise
+4678/商场内,1,1,TaylorMade旗舰店,discard_ocr_category_noise
+5142/商场内,1,1,华为授权体验店,discard_ocr_category_noise
+5615/商场内,1,1,PASSIONSKY铂森思伽西服定制,discard_ocr_category_noise
+7810/商场内,1,1,Apple授权专营店,discard_ocr_category_noise
+7886/商场内,1,1,科大讯飞AI学习机,discard_ocr_category_noise
+S.,1,1,岐艾,review_or_edit_category_mapping
+S..,1,1,怡呵美,review_or_edit_category_mapping
+SP..,1,1,耳将军采耳,review_or_edit_category_mapping
+专利/商标/版权代理,1,1,保登记处,review_or_edit_category_mapping
+个性.,1,1,海马体照相馆,review_or_edit_category_mapping
+乒乓球..,1,1,愉跃乒乓,review_or_edit_category_mapping
+休,1,1,乐摩吧,review_or_edit_category_mapping
+停,1,1,上海平安大厦-地下停车场,review_or_edit_category_mapping
+儿,1,1,西瓜籽童品,review_or_edit_category_mapping
+充,1,1,小桔充电,review_or_edit_category_mapping
+充电站..,1,1,小桔充电,review_or_edit_category_mapping
+其他亲子.,1,1,迪迪熊捞鱼,review_or_edit_category_mapping
+其他金融,1,1,慕途私募基金,review_or_edit_category_mapping
+及充,1,1,特来电汽车充电站,review_or_edit_category_mapping
+及充电站.,1,1,汽车充电站,review_or_edit_category_mapping
+口腔医疗.,1,1,卓尔荟门诊·口腔科,review_or_edit_category_mapping
+吃,1,1,赵记羊肉馆,review_or_edit_category_mapping
+品,1,1,福福贴贴·当局者迷,review_or_edit_category_mapping
+商场内位置便利,1,1,★窗,review_or_edit_category_mapping
+宝宝宴/....,1,1,头号顽家生日派对·沉浸式主题·轻,review_or_edit_category_mapping
+家,1,1,艾美家青浦万达茂,review_or_edit_category_mapping
+射击射箭..,1,1,天行射箭培训,review_or_edit_category_mapping
+工商注册代理,1,1,煌芒财务·注册公司·代理记账,review_or_edit_category_mapping
+平衡,1,1,骑思妙象·滑板·平衡车·BMX小轮,review_or_edit_category_mapping
+式面条,1,1,东京野郎拉面,review_or_edit_category_mapping
+心理咨.,1,1,壹点灵·心理咨询中心,review_or_edit_category_mapping
+心理咨询/...,1,1,塔星塔罗luckymagic,review_or_edit_category_mapping
+惠,1,1,设计简约文艺,review_or_edit_category_mapping
+成人学历提升,1,1,夜航学社·成人夜校兴趣班,review_or_edit_category_mapping
+成品,1,1,上海美利华家居源头工厂店,review_or_edit_category_mapping
+拍卖行,1,1,爱代拍,review_or_edit_category_mapping
+推拿..,1,1,五行净沐科技艾灸馆,review_or_edit_category_mapping
+日语,1,1,唯新学院日语·日本留学·美术作.,review_or_edit_category_mapping
+智,1,1,乐摩吧,review_or_edit_category_mapping
+智能按....,1,1,乐摩吧,review_or_edit_category_mapping
+智能自..,1,1,COFC机器人咖啡亭,review_or_edit_category_mapping
+智能自助,1,1,丰巢寄存柜,review_or_edit_category_mapping
+智能自助..,1,1,丰巢,review_or_edit_category_mapping
+更多教育.,1,1,琪星闪耀,review_or_edit_category_mapping
+本料理132/,1,1,呆板日式料理,review_or_edit_category_mapping
+机器.,1,1,斯坦星球AI编程·机器人科创·科学,review_or_edit_category_mapping
+杂货,1,1,泡泡玛特机器人商店(奉发宝龙1F2),review_or_edit_category_mapping
+武术,1,1,汉萨聚剑堡,review_or_edit_category_mapping
+法律..,1,1,北京市两高(上海)律师事务所,review_or_edit_category_mapping
+溜冰/...,1,1,Snow1冰雪乐园,review_or_edit_category_mapping
+溜冰/滑雪,1,1,城市轮滑,review_or_edit_category_mapping
+演艺中心,1,1,上海K11购物艺术中心·演出售票,review_or_edit_category_mapping
+演艺影视公司...,1,1,tickets+concession,review_or_edit_category_mapping
+潮汕牛.,1,1,左庭右院鲜牛肉火锅,review_or_edit_category_mapping
+物流.,1,1,顺丰速运,review_or_edit_category_mapping
+皮,1,1,科斑传奇皮肤修复中心,review_or_edit_category_mapping
+移民机构,1,1,侨外移民·出国·海外身份规划,review_or_edit_category_mapping
+窗帘,1,1,私人定制窗帘卷帘百叶地毯定做,review_or_edit_category_mapping
+维修..,1,1,BOP保镖隐形车衣,review_or_edit_category_mapping
+综合经,1,1,鸿蒙智行汽车·华为,review_or_edit_category_mapping
+美,1,1,燃BAR-烧烤也摇滚,review_or_edit_category_mapping
+联合办.,1,1,WeWork中国,review_or_edit_category_mapping
+脱433/,1,1,Ulike&极萌大宁久光店,review_or_edit_category_mapping
+自...,1,1,JUST·FOTO大头贴自助店,review_or_edit_category_mapping
+艺考,1,1,乐音琴行,review_or_edit_category_mapping
+蜡像馆,1,1,上海杜莎夫人蜡像馆,review_or_edit_category_mapping
+西,1,1,德克士,review_or_edit_category_mapping
+课后.,1,1,昂立少儿成长中心,review_or_edit_category_mapping
+赛车,1,1,金卡E族卡丁车俱乐部,review_or_edit_category_mapping
+跆拳道馆,1,1,星河跆拳道,review_or_edit_category_mapping
+跟拍,1,1,YOUPINKE沪牌代拍·上海牌照,review_or_edit_category_mapping
+身心健康,1,1,爱菁灵·感统·言语·发育迟缓,review_or_edit_category_mapping
+轻食沙拉,1,1,leaf&loaf轻食,review_or_edit_category_mapping
+运,1,1,素心·瑜伽,review_or_edit_category_mapping
+运动... 35214/商场内,1,1,LifeFitness力健零售概念店,review_or_edit_category_mapping
+通信营,1,1,中国联通,review_or_edit_category_mapping
+道路附属...,1,1,停车场春区,review_or_edit_category_mapping
+酒店.,1,1,水块委云旧店,review_or_edit_category_mapping
+酒店婚宴.,1,1,eatnwork·江景宴会厅,review_or_edit_category_mapping
+酒店婚宴/..,1,1,璞徽·江景宴会厅,review_or_edit_category_mapping
+里,1,1,蟹犇前.帝王蟹雪蟹,review_or_edit_category_mapping
+钻彩宝,1,1,UNIVV与同珠宝大克拉培育钻石,review_or_edit_category_mapping
+钻彩宝15658/,1,1,DR钻戒,review_or_edit_category_mapping
+锅134/,1,1,额尔敦传统涮·内蒙烧烤·烤腿,review_or_edit_category_mapping
+革,1,1,千百度,review_or_edit_category_mapping
+香道,1,1,宝纛香局·古法手作香坊,review_or_edit_category_mapping
+驾校,1,1,优创学车·品牌自营连锁,review_or_edit_category_mapping
+高尔夫培训,1,1,爱玩高尔夫,review_or_edit_category_mapping
+高档型,1,1,全季酒店,review_or_edit_category_mapping
+黄,1,1,中国黄金精品店,review_or_edit_category_mapping

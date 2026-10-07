@@ -1,0 +1,35 @@
+active,mall_name,opening_year,commercial_area_sqm,confidence,source,notes
+TRUE,K11购物艺术中心,2013,40000,high,en.wikipedia.org / k11.com,2013-02试营业 2013-06-28正式开业
+TRUE,上海久光百货,2004,,high,en.wikipedia.org / hkexnews Lifestyle Intl,2004-09开业
+TRUE,上海环球港,2013,320000,high,ja.wikipedia.org / Knight Frank,2013-07-05软开业
+TRUE,上海荟聚中心,2024,210000,high,english.shanghai.gov.cn / woodsbagot.com,2024-09底开业
+TRUE,兴业太古汇,2017,100000,high,en.wikipedia.org / malls.com,2017-05商场开业
+TRUE,前滩太古里,2021,120000,high,scmp.com / carrier.com,2021-09开业
+TRUE,北外滩来福士,2021,120000,high,capitaland.com / mothership.sg,2021-07-10开业
+TRUE,上海恒隆广场,2001,53600,medium,old.skyscraper.org,商场5.36万平；一期2001竣工
+TRUE,上海来福士广场,2004,,medium,scmp.com,综合体2003竣工 商场2004开业
+TRUE,世贸广场,2006,58000,medium,re-thinkingthefuture.com / smartshanghai.com,2006建成 2018-12改造后重开
+TRUE,中信泰富广场,2000,,medium,archdaily.com / archello.com,2000竣工
+TRUE,凯德晶萃广场,2018,140000,medium,architectmagazine.com / archinect.com,
+TRUE,国金ifc商场,2010,111484,medium,malls.com / shkp.com,2010-04-28开业
+FALSE,五角场万达广场,2006,,low,cinematreasures.org,仅据万达影城2006-12-14开业推断 非商场本身
+FALSE,万达茂,2018,,low,4travel.jp,旅游博客弱来源
+FALSE,真如环宇城,,,low,english.shanghai.gov.cn,线索指向2024年开业但无明确日期；注意勿与中山公园龙之梦(CloudNine)混淆
+FALSE,绿地缤纷城,2017,,low,nikken.co.jp,来源指向徐汇东安路项目 与本样本商场是否同一物业未确认 暂不采用
+FALSE,西岸梦中心,,45000,low,detail.de,45000为MVRDV改造设计面积非零售GFA；未找到开业年份
+FALSE,虹口凯德龙之梦,,,low,searched_not_found,英文名 Hongkou Plaza；capitaland.com 组合PDF 或可解决
+FALSE,虹桥南丰城,,,low,searched_not_found,英文名 The Place (Nan Fung)
+FALSE,虹桥新天地,,,low,searched_not_found,英文名 Hongqiao Tiandi (Shui On Land)
+FALSE,金山万达广场,,,low,searched_not_found,已检索无果
+FALSE,奉贤宝龙城市广场,,,low,searched_not_found,已检索无果；宝龙地产仅有集团层面总GFA
+FALSE,奉贤龙湖天街,,,low,searched_not_found,已检索无果；龙湖仅有集团层面累计GFA
+FALSE,崇明万达广场,,,low,searched_not_found,已检索无果
+FALSE,控江旭辉MALL,,,low,searched_not_found,已检索无果；旭辉仅有月度合约GFA
+FALSE,百联金山,,,low,searched_not_found,已检索无果
+FALSE,百联又一城,,,low,searched_not_found,已检索无果；仅确认为五角场五大主力店之一
+FALSE,BFC外滩金融中心,,,low,searched_not_found,已检索无果
+FALSE,ONE ITC,,,low,searched_not_found,已检索无果
+FALSE,世博天地,,,low,searched_not_found,已检索无果
+FALSE,世博源,,,low,searched_not_found,已检索无果
+FALSE,五角场合生汇,,,low,searched_not_found,已检索无果
+FALSE,光启城,,,low,searched_not_found,已检索无果

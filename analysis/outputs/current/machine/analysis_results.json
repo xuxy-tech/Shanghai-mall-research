@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-08-27T13:32:03+08:00",
+  "features_used": [
+    "standardization_loo",
+    "local_only_rate",
+    "function_rarity_loo",
+    "sitdown_price_log",
+    "subculture_index",
+    "experiential_share"
+  ],
+  "mall_count": 61,
+  "nestedness": {
+    "corr_diversity_ubiquity": -0.886,
+    "corr_size_diversity": 0.7347,
+    "rarefied_corr_mean": -0.6379,
+    "rarefied_corr_sd": 0.07,
+    "rarefied_to_n_stores": 72,
+    "rarefaction_reps": 30,
+    "diversity_min": 24,
+    "diversity_max": 61
+  },
+  "archetype": {
+    "k": 3,
+    "explained_variance": 0.6012,
+    "pure_malls": 44,
+    "mixed_malls": 17
+  },
+  "kmeans_reference": [
+    {
+      "k": 2,
+      "silhouette": 0.3063,
+      "cluster_sizes": "41 | 20"
+    },
+    {
+      "k": 3,
+      "silhouette": 0.3199,
+      "cluster_sizes": "39 | 20 | 2"
+    },
+    {
+      "k": 4,
+      "silhouette": 0.315,
+      "cluster_sizes": "40 | 18 | 2 | 1"
+    },
+    {
+      "k": 5,
+      "silhouette": 0.2632,
+      "cluster_sizes": "29 | 12 | 11 | 7 | 2"
+    },
+    {
+      "k": 6,
+      "silhouette": 0.2544,
+      "cluster_sizes": "21 | 15 | 10 | 8 | 5 | 2"
+    }
+  ],
+  "spurious_pairs": 3,
+  "colocation_pairs": 10753
+}

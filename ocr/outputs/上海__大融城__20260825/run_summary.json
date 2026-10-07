@@ -1,0 +1,42 @@
+{
+  "mall_name": "大融城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__大融城__20260825.mp4",
+  "video_metadata": {
+    "fps": 56.07558139928543,
+    "frame_count": 13803,
+    "duration_sec": 246.14992222222222,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 325,
+  "card_observations": 1589,
+  "unique_cards": 369,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大融城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大融城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大融城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大融城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 18131,
+    "title_candidates": 1995,
+    "rating_anchors": 1346,
+    "unrated_anchors": 123,
+    "metadata_anchors": 2247,
+    "raw_anchors": 3716,
+    "matched_anchors": 3647,
+    "matched_anchor_titles": 1589,
+    "unmatched_anchors": 69,
+    "accepted_cards": 1589,
+    "rated_cards": 1322,
+    "unrated_cards": 122,
+    "missing_rating_cards": 145,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 3
+  },
+  "records_requiring_review": 20,
+  "research_eligible_records": 318,
+  "excluded_new_store_records": 24,
+  "excluded_unrated_records": 27,
+  "rated_records": 314,
+  "unrated_records": 28,
+  "missing_rating_records": 27
+}

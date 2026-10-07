@@ -1,0 +1,21 @@
+name: mall-analysis
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy=2.3
+  - scipy
+  - pymc=5.28.5
+  - arviz
+  - matplotlib
+  - rich
+  - gxx
+  - pip:
+      - --extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu129/
+      - paddlepaddle-gpu==3.2.0
+      - paddleocr==3.7.0
+      - opencv-contrib-python==4.10.0.84
+      - opencc-python-reimplemented==0.1.7
+      - rapidfuzz==3.14.5

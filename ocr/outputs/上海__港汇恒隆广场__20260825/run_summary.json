@@ -1,0 +1,42 @@
+{
+  "mall_name": "港汇恒隆广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__港汇恒隆广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.53106200689181,
+    "frame_count": 11265,
+    "duration_sec": 195.80726666666666,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 283,
+  "card_observations": 1495,
+  "unique_cards": 371,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__港汇恒隆广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__港汇恒隆广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__港汇恒隆广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__港汇恒隆广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 13016,
+    "title_candidates": 1750,
+    "rating_anchors": 1415,
+    "unrated_anchors": 50,
+    "metadata_anchors": 2024,
+    "raw_anchors": 3489,
+    "matched_anchors": 3410,
+    "matched_anchor_titles": 1495,
+    "unmatched_anchors": 79,
+    "accepted_cards": 1495,
+    "rated_cards": 1386,
+    "unrated_cards": 47,
+    "missing_rating_cards": 62,
+    "missing_category_cards": 20,
+    "missing_floor_cards": 26
+  },
+  "records_requiring_review": 20,
+  "research_eligible_records": 348,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 13,
+  "rated_records": 347,
+  "unrated_records": 13,
+  "missing_rating_records": 11
+}

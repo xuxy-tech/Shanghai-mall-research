@@ -1,0 +1,42 @@
+{
+  "mall_name": "第一八佰伴",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__第一八佰伴__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.92141273859522,
+    "frame_count": 14395,
+    "duration_sec": 244.30846666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 306,
+  "card_observations": 1733,
+  "unique_cards": 391,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一八佰伴__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一八佰伴__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一八佰伴__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一八佰伴__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12097,
+    "title_candidates": 1981,
+    "rating_anchors": 1509,
+    "unrated_anchors": 181,
+    "metadata_anchors": 2117,
+    "raw_anchors": 3807,
+    "matched_anchors": 3729,
+    "matched_anchor_titles": 1733,
+    "unmatched_anchors": 78,
+    "accepted_cards": 1733,
+    "rated_cards": 1483,
+    "unrated_cards": 174,
+    "missing_rating_cards": 76,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 16,
+  "research_eligible_records": 329,
+  "excluded_new_store_records": 16,
+  "excluded_unrated_records": 46,
+  "rated_records": 328,
+  "unrated_records": 46,
+  "missing_rating_records": 17
+}

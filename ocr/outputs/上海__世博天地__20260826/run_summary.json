@@ -1,0 +1,42 @@
+{
+  "mall_name": "世博天地",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__世博天地__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.83095666604007,
+    "frame_count": 8770,
+    "duration_sec": 149.07117777777776,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 154,
+  "card_observations": 685,
+  "unique_cards": 159,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博天地__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博天地__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博天地__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博天地__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 8980,
+    "title_candidates": 848,
+    "rating_anchors": 650,
+    "unrated_anchors": 3,
+    "metadata_anchors": 954,
+    "raw_anchors": 1607,
+    "matched_anchors": 1557,
+    "matched_anchor_titles": 685,
+    "unmatched_anchors": 50,
+    "accepted_cards": 685,
+    "rated_cards": 629,
+    "unrated_cards": 3,
+    "missing_rating_cards": 53,
+    "missing_category_cards": 4,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 14,
+  "research_eligible_records": 150,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 1,
+  "rated_records": 149,
+  "unrated_records": 1,
+  "missing_rating_records": 9
+}

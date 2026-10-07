@@ -1,0 +1,42 @@
+{
+  "mall_name": "瑞虹天地月亮湾",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__瑞虹天地月亮湾__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.2038143803705,
+    "frame_count": 5537,
+    "duration_sec": 95.13122222222222,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 133,
+  "card_observations": 637,
+  "unique_cards": 157,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地月亮湾__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地月亮湾__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地月亮湾__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地月亮湾__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 7248,
+    "title_candidates": 803,
+    "rating_anchors": 561,
+    "unrated_anchors": 56,
+    "metadata_anchors": 779,
+    "raw_anchors": 1396,
+    "matched_anchors": 1370,
+    "matched_anchor_titles": 637,
+    "unmatched_anchors": 26,
+    "accepted_cards": 637,
+    "rated_cards": 550,
+    "unrated_cards": 55,
+    "missing_rating_cards": 32,
+    "missing_category_cards": 22,
+    "missing_floor_cards": 42
+  },
+  "records_requiring_review": 11,
+  "research_eligible_records": 131,
+  "excluded_new_store_records": 7,
+  "excluded_unrated_records": 19,
+  "rated_records": 131,
+  "unrated_records": 19,
+  "missing_rating_records": 7
+}

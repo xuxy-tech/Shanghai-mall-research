@@ -1,0 +1,42 @@
+{
+  "mall_name": "大宁久光中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__大宁久光中心__20260824.mp4",
+  "video_metadata": {
+    "fps": 56.092528131926116,
+    "frame_count": 16534,
+    "duration_sec": 294.76296666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 307,
+  "card_observations": 1491,
+  "unique_cards": 421,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大宁久光中心__20260824\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大宁久光中心__20260824\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大宁久光中心__20260824\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大宁久光中心__20260824\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 15440,
+    "title_candidates": 1784,
+    "rating_anchors": 1313,
+    "unrated_anchors": 128,
+    "metadata_anchors": 2018,
+    "raw_anchors": 3459,
+    "matched_anchors": 3384,
+    "matched_anchor_titles": 1491,
+    "unmatched_anchors": 75,
+    "accepted_cards": 1491,
+    "rated_cards": 1282,
+    "unrated_cards": 126,
+    "missing_rating_cards": 83,
+    "missing_category_cards": 11,
+    "missing_floor_cards": 5
+  },
+  "records_requiring_review": 41,
+  "research_eligible_records": 357,
+  "excluded_new_store_records": 16,
+  "excluded_unrated_records": 48,
+  "rated_records": 354,
+  "unrated_records": 48,
+  "missing_rating_records": 19
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "万达茂",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__万达茂__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.925852228414534,
+    "frame_count": 12156,
+    "duration_sec": 206.29315555555556,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 236,
+  "card_observations": 1130,
+  "unique_cards": 243,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__万达茂__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__万达茂__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__万达茂__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__万达茂__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12493,
+    "title_candidates": 1408,
+    "rating_anchors": 903,
+    "unrated_anchors": 152,
+    "metadata_anchors": 1355,
+    "raw_anchors": 2410,
+    "matched_anchors": 2340,
+    "matched_anchor_titles": 1130,
+    "unmatched_anchors": 70,
+    "accepted_cards": 1130,
+    "rated_cards": 882,
+    "unrated_cards": 147,
+    "missing_rating_cards": 101,
+    "missing_category_cards": 8,
+    "missing_floor_cards": 68
+  },
+  "records_requiring_review": 7,
+  "research_eligible_records": 201,
+  "excluded_new_store_records": 19,
+  "excluded_unrated_records": 23,
+  "rated_records": 200,
+  "unrated_records": 24,
+  "missing_rating_records": 19
+}

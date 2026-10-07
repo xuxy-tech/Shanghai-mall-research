@@ -1,0 +1,224 @@
+{
+  "generated_at": "2026-08-27T13:39:06+08:00",
+  "matrix": {
+    "malls": 61,
+    "categories": 69,
+    "total_stores": 14779,
+    "zero_share": 0.3459
+  },
+  "clr_pca_min_score_correlation": 0.9546,
+  "aitchison": {
+    "distance_mean": 8.2319,
+    "distance_cv": 0.1644,
+    "null_cv_mean": 0.0919,
+    "null_cv_sd": 0.0046,
+    "cv_z_score": 15.8,
+    "structure_exceeds_sampling_noise": true,
+    "kmedoids_silhouette": {
+      "2": 0.1816,
+      "3": 0.1143,
+      "4": 0.0861,
+      "5": 0.08,
+      "6": 0.0766
+    },
+    "best_silhouette": 0.1816,
+    "discrete_groups_supported": false
+  },
+  "factor_selection": {
+    "parallel_analysis": 2,
+    "holdout_best_k": 2,
+    "stable_factor_count": 2,
+    "consensus_k": 2,
+    "lnm_holdout_best_k": 4,
+    "selected_k": 2,
+    "holdout_rmse": [
+      {
+        "k": 1,
+        "holdout_rmse": 0.6463
+      },
+      {
+        "k": 2,
+        "holdout_rmse": 0.6153
+      },
+      {
+        "k": 3,
+        "holdout_rmse": 0.6254
+      },
+      {
+        "k": 4,
+        "holdout_rmse": 0.6337
+      },
+      {
+        "k": 5,
+        "holdout_rmse": 0.6747
+      },
+      {
+        "k": 6,
+        "holdout_rmse": 0.7108
+      }
+    ],
+    "loading_stability": [
+      {
+        "factor": 1,
+        "loading_stability_median": 0.9601,
+        "loading_stability_q25": 0.937,
+        "stable": true
+      },
+      {
+        "factor": 2,
+        "loading_stability_median": 0.921,
+        "loading_stability_q25": 0.886,
+        "stable": true
+      },
+      {
+        "factor": 3,
+        "loading_stability_median": 0.3818,
+        "loading_stability_q25": 0.2462,
+        "stable": false
+      },
+      {
+        "factor": 4,
+        "loading_stability_median": 0.3999,
+        "loading_stability_q25": 0.1229,
+        "stable": false
+      }
+    ]
+  },
+  "factor_source": "bayesian_lnm_K2",
+  "lnm_final_fitted_k": 2,
+  "lnm_comparison": [
+    {
+      "n_factors": 1,
+      "inference": "advi",
+      "final_advi_loss": 7012.2,
+      "chi_square_discrepancy": 5816.4,
+      "holdout_mae": 0.339,
+      "holdout_mean_log_score": -3.474131,
+      "holdout_store_count": 1451,
+      "elapsed_sec": 9.4
+    },
+    {
+      "n_factors": 2,
+      "inference": "advi",
+      "final_advi_loss": 6831.9,
+      "chi_square_discrepancy": 4766.9,
+      "holdout_mae": 0.3376,
+      "holdout_mean_log_score": -3.446928,
+      "holdout_store_count": 1451,
+      "elapsed_sec": 4.6
+    },
+    {
+      "n_factors": 3,
+      "inference": "advi",
+      "final_advi_loss": 6867.3,
+      "chi_square_discrepancy": 4236.4,
+      "holdout_mae": 0.3353,
+      "holdout_mean_log_score": -3.440754,
+      "holdout_store_count": 1451,
+      "elapsed_sec": 4.6
+    },
+    {
+      "n_factors": 4,
+      "inference": "advi",
+      "final_advi_loss": 6895.0,
+      "chi_square_discrepancy": 3752.4,
+      "holdout_mae": 0.3326,
+      "holdout_mean_log_score": -3.433936,
+      "holdout_store_count": 1451,
+      "elapsed_sec": 4.9
+    }
+  ],
+  "posthoc": [
+    {
+      "variable": "standardization_loo",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.7254,
+      "corr_factor2": 0.2283
+    },
+    {
+      "variable": "local_only_rate",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": -0.0846,
+      "corr_factor2": 0.4449
+    },
+    {
+      "variable": "function_rarity_loo",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.3648,
+      "corr_factor2": -0.0729
+    },
+    {
+      "variable": "sitdown_price_log",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": -0.6671,
+      "corr_factor2": -0.1953
+    },
+    {
+      "variable": "subculture_index",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.0557,
+      "corr_factor2": 0.0727
+    },
+    {
+      "variable": "light_consumption_index",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.2663,
+      "corr_factor2": 0.6343
+    },
+    {
+      "variable": "experiential_share",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.609,
+      "corr_factor2": 0.5582
+    },
+    {
+      "variable": "l2_breadth",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.5309,
+      "corr_factor2": -0.1497
+    },
+    {
+      "variable": "store_count",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.1757,
+      "corr_factor2": -0.5917
+    },
+    {
+      "variable": "dining_share",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": 0.2669,
+      "corr_factor2": 0.7601
+    },
+    {
+      "variable": "retail_share",
+      "n": 61,
+      "kind": "constructed_indicator",
+      "corr_factor1": -0.5533,
+      "corr_factor2": -0.9289
+    },
+    {
+      "variable": "distance_from_centre_km",
+      "n": 57,
+      "kind": "geography",
+      "corr_factor1": 0.4299,
+      "corr_factor2": -0.0647
+    },
+    {
+      "variable": "opening_year",
+      "n": 13,
+      "kind": "metadata",
+      "corr_factor1": 0.4799,
+      "corr_factor2": 0.0529
+    }
+  ]
+}

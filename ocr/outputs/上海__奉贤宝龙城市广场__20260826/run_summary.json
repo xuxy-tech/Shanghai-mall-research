@@ -1,0 +1,42 @@
+{
+  "mall_name": "奉贤宝龙城市广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__奉贤宝龙城市广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.865705698947664,
+    "frame_count": 9998,
+    "duration_sec": 169.84422222222221,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 228,
+  "card_observations": 1124,
+  "unique_cards": 275,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤宝龙城市广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤宝龙城市广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤宝龙城市广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤宝龙城市广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12327,
+    "title_candidates": 1346,
+    "rating_anchors": 911,
+    "unrated_anchors": 170,
+    "metadata_anchors": 1458,
+    "raw_anchors": 2539,
+    "matched_anchors": 2477,
+    "matched_anchor_titles": 1124,
+    "unmatched_anchors": 62,
+    "accepted_cards": 1124,
+    "rated_cards": 890,
+    "unrated_cards": 165,
+    "missing_rating_cards": 69,
+    "missing_category_cards": 5,
+    "missing_floor_cards": 7
+  },
+  "records_requiring_review": 17,
+  "research_eligible_records": 226,
+  "excluded_new_store_records": 15,
+  "excluded_unrated_records": 34,
+  "rated_records": 227,
+  "unrated_records": 34,
+  "missing_rating_records": 14
+}

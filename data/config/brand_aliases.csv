@@ -1,0 +1,3 @@
+active,alias,canonical_brand_name,reason,confidence,notes
+TRUE,BreadTallk面包新语,BreadTalk面包新语,confirmed_ocr_typo,high,十家试验中孤立英文字符错误
+TRUE,LIOU&LANS了岗,LIOU&LANS了岚,confirmed_ocr_typo,high,十家试验中孤立汉字错误

@@ -1,0 +1,42 @@
+{
+  "mall_name": "陆家嘴中心L+MALL",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__陆家嘴中心L+MALL__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.13015557381891,
+    "frame_count": 11959,
+    "duration_sec": 205.7279888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 234,
+  "card_observations": 1112,
+  "unique_cards": 249,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__陆家嘴中心L+MALL__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__陆家嘴中心L+MALL__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__陆家嘴中心L+MALL__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__陆家嘴中心L+MALL__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 13307,
+    "title_candidates": 1366,
+    "rating_anchors": 1017,
+    "unrated_anchors": 51,
+    "metadata_anchors": 1492,
+    "raw_anchors": 2560,
+    "matched_anchors": 2516,
+    "matched_anchor_titles": 1112,
+    "unmatched_anchors": 44,
+    "accepted_cards": 1112,
+    "rated_cards": 1000,
+    "unrated_cards": 49,
+    "missing_rating_cards": 63,
+    "missing_category_cards": 12,
+    "missing_floor_cards": 69
+  },
+  "records_requiring_review": 27,
+  "research_eligible_records": 226,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 13,
+  "rated_records": 225,
+  "unrated_records": 13,
+  "missing_rating_records": 11
+}

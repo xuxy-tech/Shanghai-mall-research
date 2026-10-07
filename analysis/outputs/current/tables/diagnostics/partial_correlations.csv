@@ -1,0 +1,16 @@
+﻿feature_a,feature_b,marginal_corr,partial_corr,verdict
+standardization_loo,local_only_rate,-0.4564,-0.6935,direct
+local_only_rate,experiential_share,0.2514,0.5251,direct
+standardization_loo,experiential_share,0.4441,0.4997,direct
+standardization_loo,sitdown_price_log,-0.5237,-0.4879,direct
+function_rarity_loo,experiential_share,0.5263,0.3924,direct
+local_only_rate,sitdown_price_log,-0.0434,-0.3004,direct
+function_rarity_loo,subculture_index,0.4505,0.268,spurious
+local_only_rate,function_rarity_loo,0.0036,-0.1937,weak
+subculture_index,experiential_share,0.474,0.1875,spurious
+standardization_loo,function_rarity_loo,0.2768,-0.1297,weak
+function_rarity_loo,sitdown_price_log,-0.2892,-0.1106,weak
+standardization_loo,subculture_index,0.2858,0.0848,weak
+local_only_rate,subculture_index,0.0781,0.0568,weak
+sitdown_price_log,subculture_index,-0.2687,-0.0137,weak
+sitdown_price_log,experiential_share,-0.4264,0.0099,spurious

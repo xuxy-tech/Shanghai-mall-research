@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-27T13:32:15+08:00",
+  "master_input": "C:\\Users\\admin\\Desktop\\商场聚类\\merchant_data_pipeline\\master_stores.csv",
+  "mall_count": 61,
+  "weak_singleton_count_by_identity": {
+    "strict_current": 478,
+    "latin_core_merged": 450,
+    "strip_suffix_merged": 447
+  },
+  "jaccard_range": [
+    0.0399,
+    0.045
+  ],
+  "structural_cosine": {
+    "cosine_mean": 0.7233,
+    "cosine_max": 0.9778
+  },
+  "structural_to_brand_ratio": 16.1,
+  "conclusion": "品牌 Jaccard 在所有归一化与单例处理组合下均落在 0.0399–0.045，而业态结构余弦为 0.7233。'品牌层面不重叠、结构层面雷同'的结论对品牌身份定义不敏感；但单例品牌比例本身受命名与覆盖度影响，不应单独解读为商业独特性。"
+}

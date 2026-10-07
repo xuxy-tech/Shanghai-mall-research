@@ -1,0 +1,42 @@
+{
+  "mall_name": "上海荟聚中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__上海荟聚中心__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.94485802276542,
+    "frame_count": 19094,
+    "duration_sec": 323.92986666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 411,
+  "card_observations": 2033,
+  "unique_cards": 384,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海荟聚中心__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海荟聚中心__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海荟聚中心__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海荟聚中心__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 23939,
+    "title_candidates": 2509,
+    "rating_anchors": 1739,
+    "unrated_anchors": 150,
+    "metadata_anchors": 3092,
+    "raw_anchors": 4981,
+    "matched_anchors": 4879,
+    "matched_anchor_titles": 2033,
+    "unmatched_anchors": 102,
+    "accepted_cards": 2033,
+    "rated_cards": 1701,
+    "unrated_cards": 147,
+    "missing_rating_cards": 185,
+    "missing_category_cards": 10,
+    "missing_floor_cards": 4
+  },
+  "records_requiring_review": 21,
+  "research_eligible_records": 336,
+  "excluded_new_store_records": 19,
+  "excluded_unrated_records": 29,
+  "rated_records": 330,
+  "unrated_records": 29,
+  "missing_rating_records": 25
+}

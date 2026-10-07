@@ -1,0 +1,42 @@
+{
+  "mall_name": "青浦吾悦广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__青浦吾悦广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.11620030863681,
+    "frame_count": 11984,
+    "duration_sec": 202.7193888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 290,
+  "card_observations": 1452,
+  "unique_cards": 330,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__青浦吾悦广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__青浦吾悦广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__青浦吾悦广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__青浦吾悦广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 14058,
+    "title_candidates": 1707,
+    "rating_anchors": 1067,
+    "unrated_anchors": 333,
+    "metadata_anchors": 1772,
+    "raw_anchors": 3172,
+    "matched_anchors": 3116,
+    "matched_anchor_titles": 1452,
+    "unmatched_anchors": 56,
+    "accepted_cards": 1452,
+    "rated_cards": 1046,
+    "unrated_cards": 327,
+    "missing_rating_cards": 79,
+    "missing_category_cards": 19,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 19,
+  "research_eligible_records": 252,
+  "excluded_new_store_records": 15,
+  "excluded_unrated_records": 63,
+  "rated_records": 252,
+  "unrated_records": 63,
+  "missing_rating_records": 15
+}

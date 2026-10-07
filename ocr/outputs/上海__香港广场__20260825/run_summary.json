@@ -1,0 +1,42 @@
+{
+  "mall_name": "香港广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__香港广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.49048580745161,
+    "frame_count": 2884,
+    "duration_sec": 50.16482222222222,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 62,
+  "card_observations": 299,
+  "unique_cards": 80,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__香港广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__香港广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__香港广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__香港广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 3350,
+    "title_candidates": 364,
+    "rating_anchors": 251,
+    "unrated_anchors": 27,
+    "metadata_anchors": 375,
+    "raw_anchors": 653,
+    "matched_anchors": 639,
+    "matched_anchor_titles": 299,
+    "unmatched_anchors": 14,
+    "accepted_cards": 299,
+    "rated_cards": 247,
+    "unrated_cards": 26,
+    "missing_rating_cards": 26,
+    "missing_category_cards": 3,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 8,
+  "research_eligible_records": 68,
+  "excluded_new_store_records": 4,
+  "excluded_unrated_records": 8,
+  "rated_records": 66,
+  "unrated_records": 8,
+  "missing_rating_records": 6
+}

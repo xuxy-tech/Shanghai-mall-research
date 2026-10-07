@@ -1,0 +1,42 @@
+{
+  "mall_name": "上海来福士广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__上海来福士广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.37094742150006,
+    "frame_count": 7818,
+    "duration_sec": 131.68056666666666,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 170,
+  "card_observations": 868,
+  "unique_cards": 214,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海来福士广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海来福士广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海来福士广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海来福士广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 8419,
+    "title_candidates": 1066,
+    "rating_anchors": 764,
+    "unrated_anchors": 42,
+    "metadata_anchors": 1195,
+    "raw_anchors": 2001,
+    "matched_anchors": 1973,
+    "matched_anchor_titles": 868,
+    "unmatched_anchors": 28,
+    "accepted_cards": 868,
+    "rated_cards": 753,
+    "unrated_cards": 42,
+    "missing_rating_cards": 73,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 11,
+  "research_eligible_records": 186,
+  "excluded_new_store_records": 16,
+  "excluded_unrated_records": 12,
+  "rated_records": 185,
+  "unrated_records": 12,
+  "missing_rating_records": 17
+}

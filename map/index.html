@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f6">
+  <title>上海商场图谱</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://server.arcgisonline.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+      <div>
+        <p class="eyebrow">上海 · 商业空间观察</p>
+        <h1>商场图谱</h1>
+      </div>
+    </div>
+    <div class="topbar-meta"><span id="top-mall-count">61</span> 家商场 <i></i> <span id="top-store-count">14,779</span> 家门店 <i></i> 2026.08 数据</div>
+  </header>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="商场信息">
+      <div id="index-view" class="panel-view">
+        <div class="panel-heading">
+          <div><p class="section-label">INDEX / 01</p><h2>商场索引</h2></div>
+          <span class="count" id="visible-count">61</span>
+        </div>
+        <label class="search-wrap">
+          <span class="sr-only">搜索商场或区域</span>
+          <input id="mall-search" type="search" placeholder="搜索商场或区域" autocomplete="off">
+        </label>
+        <div class="index-caption"><span>商场名称</span><span>门店</span></div>
+        <div id="mall-list" class="mall-list"></div>
+        <div class="panel-foot">基于大众点评公开列表录屏整理，地图点位由高德 POI 核对。</div>
+      </div>
+
+      <div id="detail-view" class="panel-view detail-view" hidden>
+        <button id="back-button" class="back-button" type="button"><span aria-hidden="true">←</span> 返回索引</button>
+        <p class="section-label">MALL / PROFILE</p>
+        <h2><i id="detail-color" class="detail-color" aria-hidden="true"></i><span id="detail-name"></span></h2>
+        <p class="detail-place" id="detail-place"></p>
+        <div class="stat-row">
+          <div><strong id="detail-stores"></strong><span>门店实例</span></div>
+          <div><strong id="detail-brands"></strong><span>品牌</span></div>
+          <div><strong id="detail-breadth"></strong><span>二级业态</span></div>
+        </div>
+        <nav class="detail-tabs" aria-label="商场详情视图">
+          <button class="detail-tab is-active" data-tab="profile" type="button">概览</button>
+          <button class="detail-tab" data-tab="stores" type="button">门店</button>
+          <button class="detail-tab" data-tab="relations" type="button">关联</button>
+        </nav>
+        <div id="tab-profile" class="tab-content">
+        <section class="composition">
+          <div class="section-heading"><h3>业态概览</h3><span>门店占比</span></div>
+          <div id="share-bar" class="share-bar" role="img"></div>
+          <div class="share-legend">
+            <div><i class="retail-key"></i><span>购物</span><strong id="detail-retail"></strong></div>
+            <div><i class="dining-key"></i><span>美食</span><strong id="detail-dining"></strong></div>
+            <div><i class="other-key"></i><span>其他</span><strong id="detail-other"></strong></div>
+          </div>
+        </section>
+        <section class="categories">
+          <div class="section-heading"><h3>偏高的细分业态</h3><span>对比全样本占比</span></div>
+          <div id="category-list"></div>
+        </section>
+        </div>
+        <div id="tab-stores" class="tab-content" hidden>
+          <div class="store-controls">
+            <input id="store-search" type="search" placeholder="搜索门店或品牌" aria-label="搜索门店或品牌">
+            <div class="store-selects">
+              <select id="store-category" aria-label="筛选业态"><option value="">全部业态</option></select>
+              <select id="store-floor" aria-label="筛选楼层"><option value="">全部楼层</option></select>
+            </div>
+          </div>
+          <div class="section-heading"><h3>门店列表</h3><span id="store-results"></span></div>
+          <div id="store-list" class="store-list"></div>
+          <button id="store-more" class="store-more" type="button" hidden>显示更多</button>
+        </div>
+        <div id="tab-relations" class="tab-content" hidden>
+          <div class="section-heading"><h3>相近商场</h3><span>仅显示前 3 家连线</span></div>
+          <div class="relation-modes" role="group" aria-label="商场关系依据">
+            <button type="button" class="is-active" data-metric="brandJaccard">共享品牌</button>
+            <button type="button" data-metric="categoryCosine">业态构成</button>
+          </div>
+          <div id="relation-list" class="relation-list"></div>
+        </div>
+        <p class="detail-note">占比和店数来自当前样本，尚不代表商场实时经营状态。</p>
+      </div>
+    </aside>
+
+    <section class="map-region" aria-label="上海商场地图">
+      <div id="map" class="map"></div>
+      <div class="map-topline"><span class="map-topline-dot"></span><span id="map-status">全部商场 · 61 个点位</span></div>
+      <button id="focus-button" class="focus-button" type="button" title="聚焦商场密集区域">聚焦区域</button>
+      <div class="overview" aria-label="全市概览地图">
+        <div class="overview-heading"><span>全市概览</span><button id="fit-button" type="button" title="查看全市范围">查看全市</button></div>
+        <div id="overview-map" class="overview-map"></div>
+      </div>
+      <details class="map-legend" open aria-label="点位颜色图例">
+        <summary class="legend-heading">门店业态构成 <span>RGB 混合</span></summary>
+        <div class="ternary-legend">
+          <canvas id="ternary-canvas" width="152" height="122" aria-label="三角形色标：顶部为餐饮，左下为购物，右下为其他"></canvas>
+          <span class="ternary-dining">餐饮</span><span class="ternary-retail">购物</span><span class="ternary-other">其他</span>
+        </div>
+        <p>颜色越接近顶点，该类占比越高</p>
+        <div class="size-legend" aria-label="点面积表示样本门店数"><span>点面积 · 样本门店数</span><div><i class="size-small"></i><i class="size-medium"></i><i class="size-large"></i></div><div class="size-labels"><span>约 70</span><span>约 250</span><span>约 480</span></div></div>
+      </details>
+      <div id="map-error" class="map-error" hidden>地图底图暂不可用，商场索引仍可浏览。</div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

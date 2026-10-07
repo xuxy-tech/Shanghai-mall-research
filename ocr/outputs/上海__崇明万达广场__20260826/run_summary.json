@@ -1,0 +1,42 @@
+{
+  "mall_name": "崇明万达广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__崇明万达广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.08502221518597,
+    "frame_count": 7854,
+    "duration_sec": 132.92708888888887,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 186,
+  "card_observations": 925,
+  "unique_cards": 226,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__崇明万达广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__崇明万达广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__崇明万达广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__崇明万达广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 10791,
+    "title_candidates": 1121,
+    "rating_anchors": 761,
+    "unrated_anchors": 148,
+    "metadata_anchors": 1341,
+    "raw_anchors": 2250,
+    "matched_anchors": 2202,
+    "matched_anchor_titles": 925,
+    "unmatched_anchors": 48,
+    "accepted_cards": 925,
+    "rated_cards": 740,
+    "unrated_cards": 144,
+    "missing_rating_cards": 41,
+    "missing_category_cards": 10,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 10,
+  "research_eligible_records": 186,
+  "excluded_new_store_records": 6,
+  "excluded_unrated_records": 34,
+  "rated_records": 186,
+  "unrated_records": 34,
+  "missing_rating_records": 6
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "ONE ITC",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__ONE ITC__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.858264850242385,
+    "frame_count": 3525,
+    "duration_sec": 60.92474444444444,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 75,
+  "card_observations": 372,
+  "unique_cards": 98,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__ONE ITC__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__ONE ITC__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__ONE ITC__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__ONE ITC__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 3880,
+    "title_candidates": 426,
+    "rating_anchors": 344,
+    "unrated_anchors": 17,
+    "metadata_anchors": 514,
+    "raw_anchors": 875,
+    "matched_anchors": 860,
+    "matched_anchor_titles": 372,
+    "unmatched_anchors": 15,
+    "accepted_cards": 372,
+    "rated_cards": 338,
+    "unrated_cards": 17,
+    "missing_rating_cards": 17,
+    "missing_category_cards": 4,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 4,
+  "research_eligible_records": 90,
+  "excluded_new_store_records": 3,
+  "excluded_unrated_records": 5,
+  "rated_records": 90,
+  "unrated_records": 5,
+  "missing_rating_records": 3
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "真如环宇城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__真如环宇城__20260825.mp4",
+  "video_metadata": {
+    "fps": 56.46469687818767,
+    "frame_count": 14490,
+    "duration_sec": 256.62052222222223,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 360,
+  "card_observations": 1736,
+  "unique_cards": 376,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__真如环宇城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__真如环宇城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__真如环宇城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__真如环宇城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 21101,
+    "title_candidates": 2144,
+    "rating_anchors": 1571,
+    "unrated_anchors": 54,
+    "metadata_anchors": 2434,
+    "raw_anchors": 4059,
+    "matched_anchors": 3986,
+    "matched_anchor_titles": 1736,
+    "unmatched_anchors": 73,
+    "accepted_cards": 1736,
+    "rated_cards": 1545,
+    "unrated_cards": 53,
+    "missing_rating_cards": 138,
+    "missing_category_cards": 12,
+    "missing_floor_cards": 5
+  },
+  "records_requiring_review": 23,
+  "research_eligible_records": 345,
+  "excluded_new_store_records": 18,
+  "excluded_unrated_records": 13,
+  "rated_records": 336,
+  "unrated_records": 13,
+  "missing_rating_records": 27
+}

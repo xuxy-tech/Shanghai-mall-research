@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-08-27T13:33:30+08:00",
+  "config_version": "2026-08-26",
+  "master_input": "C:\\Users\\admin\\Desktop\\商场聚类\\merchant_data_pipeline\\master_stores.csv",
+  "counts": {
+    "malls": 61,
+    "stores": 14779,
+    "brands": 7803
+  },
+  "metadata_merged": 61,
+  "feature_columns": [
+    "mall_name",
+    "store_count",
+    "brand_count",
+    "l2_breadth",
+    "standardization_loo",
+    "head_chain_rate",
+    "local_only_rate",
+    "function_rarity_loo",
+    "subculture_index",
+    "light_consumption_index",
+    "experiential_share",
+    "dining_share",
+    "retail_share",
+    "sitdown_price_median",
+    "sitdown_price_log",
+    "sitdown_price_sample",
+    "price_dispersion",
+    "mean_rating",
+    "category_entropy_l1",
+    "district",
+    "business_area",
+    "longitude",
+    "latitude",
+    "opening_year",
+    "result_status"
+  ]
+}

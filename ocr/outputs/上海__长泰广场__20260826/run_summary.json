@@ -1,0 +1,42 @@
+{
+  "mall_name": "长泰广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__长泰广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 57.842713889334405,
+    "frame_count": 13420,
+    "duration_sec": 232.00847777777778,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 282,
+  "card_observations": 1359,
+  "unique_cards": 299,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长泰广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长泰广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长泰广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长泰广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 15725,
+    "title_candidates": 1689,
+    "rating_anchors": 1119,
+    "unrated_anchors": 136,
+    "metadata_anchors": 1141,
+    "raw_anchors": 2396,
+    "matched_anchors": 2357,
+    "matched_anchor_titles": 1359,
+    "unmatched_anchors": 39,
+    "accepted_cards": 1359,
+    "rated_cards": 1102,
+    "unrated_cards": 132,
+    "missing_rating_cards": 125,
+    "missing_category_cards": 2,
+    "missing_floor_cards": 669
+  },
+  "records_requiring_review": 20,
+  "research_eligible_records": 254,
+  "excluded_new_store_records": 16,
+  "excluded_unrated_records": 29,
+  "rated_records": 243,
+  "unrated_records": 31,
+  "missing_rating_records": 25
+}

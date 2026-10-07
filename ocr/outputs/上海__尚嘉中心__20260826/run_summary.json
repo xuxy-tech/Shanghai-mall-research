@@ -1,0 +1,42 @@
+{
+  "mall_name": "尚嘉中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__尚嘉中心__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.844925037956074,
+    "frame_count": 5089,
+    "duration_sec": 86.48154444444445,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 118,
+  "card_observations": 591,
+  "unique_cards": 143,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__尚嘉中心__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__尚嘉中心__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__尚嘉中心__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__尚嘉中心__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 6096,
+    "title_candidates": 730,
+    "rating_anchors": 465,
+    "unrated_anchors": 45,
+    "metadata_anchors": 833,
+    "raw_anchors": 1343,
+    "matched_anchors": 1327,
+    "matched_anchor_titles": 591,
+    "unmatched_anchors": 16,
+    "accepted_cards": 591,
+    "rated_cards": 461,
+    "unrated_cards": 45,
+    "missing_rating_cards": 85,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 11,
+  "research_eligible_records": 117,
+  "excluded_new_store_records": 17,
+  "excluded_unrated_records": 9,
+  "rated_records": 117,
+  "unrated_records": 9,
+  "missing_rating_records": 17
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "浦东嘉里中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__浦东嘉里中心__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.19367014276831,
+    "frame_count": 7296,
+    "duration_sec": 123.25642222222221,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 144,
+  "card_observations": 750,
+  "unique_cards": 188,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__浦东嘉里中心__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__浦东嘉里中心__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__浦东嘉里中心__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__浦东嘉里中心__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 6986,
+    "title_candidates": 910,
+    "rating_anchors": 654,
+    "unrated_anchors": 61,
+    "metadata_anchors": 1036,
+    "raw_anchors": 1751,
+    "matched_anchors": 1709,
+    "matched_anchor_titles": 750,
+    "unmatched_anchors": 42,
+    "accepted_cards": 750,
+    "rated_cards": 643,
+    "unrated_cards": 58,
+    "missing_rating_cards": 49,
+    "missing_category_cards": 2,
+    "missing_floor_cards": 4
+  },
+  "records_requiring_review": 8,
+  "research_eligible_records": 164,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 16,
+  "rated_records": 163,
+  "unrated_records": 16,
+  "missing_rating_records": 9
+}

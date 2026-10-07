@@ -1,0 +1,42 @@
+{
+  "mall_name": "K11购物艺术中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__K11购物艺术中心__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.67802607629416,
+    "frame_count": 5071,
+    "duration_sec": 86.42076666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 109,
+  "card_observations": 544,
+  "unique_cards": 130,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__K11购物艺术中心__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__K11购物艺术中心__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__K11购物艺术中心__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__K11购物艺术中心__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 5648,
+    "title_candidates": 680,
+    "rating_anchors": 436,
+    "unrated_anchors": 44,
+    "metadata_anchors": 741,
+    "raw_anchors": 1221,
+    "matched_anchors": 1209,
+    "matched_anchor_titles": 544,
+    "unmatched_anchors": 12,
+    "accepted_cards": 544,
+    "rated_cards": 432,
+    "unrated_cards": 43,
+    "missing_rating_cards": 69,
+    "missing_category_cards": 6,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 6,
+  "research_eligible_records": 104,
+  "excluded_new_store_records": 14,
+  "excluded_unrated_records": 12,
+  "rated_records": 105,
+  "unrated_records": 12,
+  "missing_rating_records": 13
+}

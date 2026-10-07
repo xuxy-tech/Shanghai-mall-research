@@ -1,0 +1,33 @@
+{
+  "pipeline_name": "mall_merchant_master",
+  "pipeline_version": "2026-08",
+  "rule_version": "2026-08-26",
+  "input_root": "ocr/outputs",
+  "input_filename": "merchant_cards.csv",
+  "output_dir": "data/outputs/current",
+  "master_output": "data/master_stores.csv",
+  "include_malls": [],
+  "exclusion": {
+    "exclude_exact_new_store_badge": false,
+    "new_store_exact_tokens": ["新店"],
+    "exclude_explicit_unrated": false
+  },
+  "category": {
+    "exclude_unmapped": true
+  },
+  "deduplication": {
+    "enabled": true,
+    "keep_confirmed_different_floors": true,
+    "merge_when_floor_missing": true
+  },
+  "name_consistency": {
+    "enabled": true,
+    "auto_correct": true,
+    "max_edit_distance": 1,
+    "min_similarity": 0.88,
+    "min_reference_malls": 3,
+    "max_variant_malls": 1,
+    "candidate_min_reference_malls": 2,
+    "protected_terms": ["男装", "女装", "儿童", "旗舰店", "体验店", "高级体验店", "家庭", "床垫"]
+  }
+}

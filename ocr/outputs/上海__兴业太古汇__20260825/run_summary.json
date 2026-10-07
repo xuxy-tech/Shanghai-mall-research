@@ -1,0 +1,42 @@
+{
+  "mall_name": "兴业太古汇",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__兴业太古汇__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.03373062634807,
+    "frame_count": 9677,
+    "duration_sec": 163.92323333333331,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 213,
+  "card_observations": 1129,
+  "unique_cards": 262,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__兴业太古汇__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__兴业太古汇__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__兴业太古汇__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__兴业太古汇__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 10092,
+    "title_candidates": 1320,
+    "rating_anchors": 1035,
+    "unrated_anchors": 75,
+    "metadata_anchors": 1554,
+    "raw_anchors": 2664,
+    "matched_anchors": 2591,
+    "matched_anchor_titles": 1129,
+    "unmatched_anchors": 73,
+    "accepted_cards": 1129,
+    "rated_cards": 1003,
+    "unrated_cards": 74,
+    "missing_rating_cards": 52,
+    "missing_category_cards": 25,
+    "missing_floor_cards": 15
+  },
+  "records_requiring_review": 22,
+  "research_eligible_records": 238,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 16,
+  "rated_records": 236,
+  "unrated_records": 16,
+  "missing_rating_records": 10
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "世博源",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__世博源__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.40663691727762,
+    "frame_count": 14679,
+    "duration_sec": 251.32417777777778,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 289,
+  "card_observations": 1414,
+  "unique_cards": 321,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博源__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博源__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博源__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博源__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 15527,
+    "title_candidates": 1693,
+    "rating_anchors": 1231,
+    "unrated_anchors": 121,
+    "metadata_anchors": 957,
+    "raw_anchors": 2309,
+    "matched_anchors": 2270,
+    "matched_anchor_titles": 1414,
+    "unmatched_anchors": 39,
+    "accepted_cards": 1414,
+    "rated_cards": 1205,
+    "unrated_cards": 120,
+    "missing_rating_cards": 89,
+    "missing_category_cards": 8,
+    "missing_floor_cards": 913
+  },
+  "records_requiring_review": 12,
+  "research_eligible_records": 279,
+  "excluded_new_store_records": 12,
+  "excluded_unrated_records": 30,
+  "rated_records": 276,
+  "unrated_records": 30,
+  "missing_rating_records": 15
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "前滩太古里",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__前滩太古里__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.58064680243247,
+    "frame_count": 13728,
+    "duration_sec": 230.4103888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 267,
+  "card_observations": 1435,
+  "unique_cards": 324,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__前滩太古里__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__前滩太古里__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__前滩太古里__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__前滩太古里__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 13049,
+    "title_candidates": 1692,
+    "rating_anchors": 1265,
+    "unrated_anchors": 125,
+    "metadata_anchors": 2034,
+    "raw_anchors": 3424,
+    "matched_anchors": 3357,
+    "matched_anchor_titles": 1435,
+    "unmatched_anchors": 67,
+    "accepted_cards": 1435,
+    "rated_cards": 1236,
+    "unrated_cards": 123,
+    "missing_rating_cards": 76,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 6
+  },
+  "records_requiring_review": 17,
+  "research_eligible_records": 290,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 24,
+  "rated_records": 291,
+  "unrated_records": 24,
+  "missing_rating_records": 9
+}

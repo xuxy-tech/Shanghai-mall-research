@@ -1,0 +1,42 @@
+{
+  "mall_name": "金虹桥",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__金虹桥__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.46147701816988,
+    "frame_count": 9670,
+    "duration_sec": 162.6263,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 193,
+  "card_observations": 938,
+  "unique_cards": 222,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金虹桥__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金虹桥__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金虹桥__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金虹桥__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 11474,
+    "title_candidates": 1132,
+    "rating_anchors": 845,
+    "unrated_anchors": 73,
+    "metadata_anchors": 1333,
+    "raw_anchors": 2251,
+    "matched_anchors": 2219,
+    "matched_anchor_titles": 938,
+    "unmatched_anchors": 32,
+    "accepted_cards": 938,
+    "rated_cards": 828,
+    "unrated_cards": 73,
+    "missing_rating_cards": 37,
+    "missing_category_cards": 12,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 15,
+  "research_eligible_records": 197,
+  "excluded_new_store_records": 6,
+  "excluded_unrated_records": 19,
+  "rated_records": 195,
+  "unrated_records": 19,
+  "missing_rating_records": 8
+}

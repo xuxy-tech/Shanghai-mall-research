@@ -1,0 +1,32 @@
+# Local credentials; keep .env.example as the template.
+.env
+.env.*
+!.env.example
+
+# Machine-specific editor and Python environments.
+.vscode/
+.conda-env/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded dependencies, models, and temporary artifacts.
+node_modules/
+ocr/models/cache/
+artifacts/
+.artifact_validation/
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Raw recordings stay on disk; OCR CSVs remain available for rebuilding the master table.
+*.mp4
+*.mov
+*.m4v
+ocr/outputs/*/evidence/
+ocr/outputs/*/raw_ocr/

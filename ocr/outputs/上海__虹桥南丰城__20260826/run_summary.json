@@ -1,0 +1,42 @@
+{
+  "mall_name": "虹桥南丰城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__虹桥南丰城__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.21630985502506,
+    "frame_count": 13984,
+    "duration_sec": 236.15115555555556,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 294,
+  "card_observations": 1359,
+  "unique_cards": 257,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥南丰城__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥南丰城__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥南丰城__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥南丰城__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 17114,
+    "title_candidates": 1717,
+    "rating_anchors": 1240,
+    "unrated_anchors": 42,
+    "metadata_anchors": 1851,
+    "raw_anchors": 3133,
+    "matched_anchors": 3045,
+    "matched_anchor_titles": 1359,
+    "unmatched_anchors": 88,
+    "accepted_cards": 1359,
+    "rated_cards": 1206,
+    "unrated_cards": 39,
+    "missing_rating_cards": 114,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 67
+  },
+  "records_requiring_review": 10,
+  "research_eligible_records": 231,
+  "excluded_new_store_records": 16,
+  "excluded_unrated_records": 10,
+  "rated_records": 230,
+  "unrated_records": 10,
+  "missing_rating_records": 17
+}

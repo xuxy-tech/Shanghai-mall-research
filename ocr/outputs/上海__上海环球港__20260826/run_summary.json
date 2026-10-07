@@ -1,0 +1,42 @@
+{
+  "mall_name": "上海环球港",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__上海环球港__20260826.mp4",
+  "video_metadata": {
+    "fps": 54.68211478684313,
+    "frame_count": 20600,
+    "duration_sec": 376.7228111111111,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 461,
+  "card_observations": 2315,
+  "unique_cards": 518,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海环球港__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海环球港__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海环球港__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海环球港__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 24142,
+    "title_candidates": 2882,
+    "rating_anchors": 2001,
+    "unrated_anchors": 167,
+    "metadata_anchors": 3217,
+    "raw_anchors": 5385,
+    "matched_anchors": 5273,
+    "matched_anchor_titles": 2315,
+    "unmatched_anchors": 112,
+    "accepted_cards": 2315,
+    "rated_cards": 1961,
+    "unrated_cards": 164,
+    "missing_rating_cards": 190,
+    "missing_category_cards": 39,
+    "missing_floor_cards": 9
+  },
+  "records_requiring_review": 23,
+  "research_eligible_records": 438,
+  "excluded_new_store_records": 33,
+  "excluded_unrated_records": 47,
+  "rated_records": 438,
+  "unrated_records": 47,
+  "missing_rating_records": 33
+}

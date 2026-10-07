@@ -1,0 +1,42 @@
+{
+  "mall_name": "光启城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__光启城__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.934735728773056,
+    "frame_count": 8435,
+    "duration_sec": 143.12442222222222,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 196,
+  "card_observations": 971,
+  "unique_cards": 198,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__光启城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__光启城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__光启城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__光启城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 10580,
+    "title_candidates": 1169,
+    "rating_anchors": 738,
+    "unrated_anchors": 152,
+    "metadata_anchors": 1261,
+    "raw_anchors": 2151,
+    "matched_anchors": 2126,
+    "matched_anchor_titles": 971,
+    "unmatched_anchors": 25,
+    "accepted_cards": 971,
+    "rated_cards": 730,
+    "unrated_cards": 150,
+    "missing_rating_cards": 91,
+    "missing_category_cards": 21,
+    "missing_floor_cards": 4
+  },
+  "records_requiring_review": 6,
+  "research_eligible_records": 158,
+  "excluded_new_store_records": 14,
+  "excluded_unrated_records": 26,
+  "rated_records": 158,
+  "unrated_records": 26,
+  "missing_rating_records": 14
+}

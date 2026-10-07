@@ -1,0 +1,42 @@
+{
+  "mall_name": "控江旭辉MALL",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__控江旭辉MALL__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.14519916841411,
+    "frame_count": 5926,
+    "duration_sec": 100.19409999999999,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 104,
+  "card_observations": 495,
+  "unique_cards": 99,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__控江旭辉MALL__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__控江旭辉MALL__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__控江旭辉MALL__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__控江旭辉MALL__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 6185,
+    "title_candidates": 592,
+    "rating_anchors": 445,
+    "unrated_anchors": 36,
+    "metadata_anchors": 646,
+    "raw_anchors": 1127,
+    "matched_anchors": 1112,
+    "matched_anchor_titles": 495,
+    "unmatched_anchors": 15,
+    "accepted_cards": 495,
+    "rated_cards": 438,
+    "unrated_cards": 36,
+    "missing_rating_cards": 21,
+    "missing_category_cards": 3,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 4,
+  "research_eligible_records": 88,
+  "excluded_new_store_records": 2,
+  "excluded_unrated_records": 9,
+  "rated_records": 88,
+  "unrated_records": 9,
+  "missing_rating_records": 2
+}

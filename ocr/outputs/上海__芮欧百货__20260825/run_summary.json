@@ -1,0 +1,42 @@
+{
+  "mall_name": "芮欧百货",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__芮欧百货__20260825.mp4",
+  "video_metadata": {
+    "fps": 55.336936767615406,
+    "frame_count": 5496,
+    "duration_sec": 99.31883333333333,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 132,
+  "card_observations": 680,
+  "unique_cards": 144,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__芮欧百货__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__芮欧百货__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__芮欧百货__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__芮欧百货__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 6032,
+    "title_candidates": 806,
+    "rating_anchors": 570,
+    "unrated_anchors": 68,
+    "metadata_anchors": 879,
+    "raw_anchors": 1517,
+    "matched_anchors": 1499,
+    "matched_anchor_titles": 680,
+    "unmatched_anchors": 18,
+    "accepted_cards": 680,
+    "rated_cards": 562,
+    "unrated_cards": 68,
+    "missing_rating_cards": 50,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 3
+  },
+  "records_requiring_review": 6,
+  "research_eligible_records": 122,
+  "excluded_new_store_records": 9,
+  "excluded_unrated_records": 13,
+  "rated_records": 122,
+  "unrated_records": 13,
+  "missing_rating_records": 9
+}

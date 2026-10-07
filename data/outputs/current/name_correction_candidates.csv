@@ -1,0 +1,16 @@
+﻿variant_name,reference_name,edit_distance,similarity,variant_mall_count,reference_mall_count,variant_row_count,reference_row_count,category_compatible,auto_eligible,action
+周大福CHOWTALFOOK,周大福CHOWTAIFOOK,1,0.9286,1,31,1,31,True,True,auto_corrected
+好特卖HotMax,好特卖HotMaxx,1,0.9,1,24,1,24,True,True,auto_corrected
+248FITNESS健身,24/7FITNESS健身,1,0.9167,1,15,1,16,True,True,auto_corrected
+PoloRalphIauren,POLORALPHLAUREN,1,0.9333,1,6,1,8,True,True,auto_corrected
+富天添鲜牛腩煲·鲜牛肉火锅,富天添鲜牛腩煲·鲜牛肉火锅·团,1,0.9231,1,4,1,4,True,True,auto_corrected
+Rokid乐奇AI眼镜店,Rokid乐奇AI眼镜,1,0.9167,1,3,1,3,True,True,auto_corrected
+苏小柳手作点心×茶叙小院,苏小柳手作点心x茶叙小院,1,0.9167,1,3,1,3,True,True,auto_corrected
+UNDERARMOUROUTDOOR安.,UnderArmourOutdoor,1,0.9474,1,2,1,2,True,False,review_candidate
+爱视眸Eyeblling眼镜·蔡司依视路,爱视眸Eyeblling眼镜·蔡司·依视,1,0.9474,1,2,1,2,True,False,review_candidate
+Ameigo梅果·云贵川bistro,Ameigo梅果·云贵川lbistro,1,0.9444,1,2,1,2,True,False,review_candidate
+Chilli's奇利斯美式小餐馆,Chili's奇利斯美式小餐馆,1,0.9333,1,2,1,2,True,False,review_candidate
+lafamille戚风蛋糕,Iafamille戚风蛋糕,1,0.9231,1,2,1,2,True,False,review_candidate
+拉朵芮·Laduree,菈朵芮·Laduree,1,0.9,1,2,1,2,True,False,review_candidate
+亨达利名表维修中心,亨吉利名表维修中心,1,0.8889,1,2,1,2,True,False,review_candidate
+锐思教育·初高辅导,锐思教育·小初高辅导,1,0.8889,1,2,1,2,True,False,review_candidate

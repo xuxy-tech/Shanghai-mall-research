@@ -1,0 +1,42 @@
+{
+  "mall_name": "五角场万达广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__五角场万达广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.510136418701215,
+    "frame_count": 13627,
+    "duration_sec": 228.9862,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 280,
+  "card_observations": 1413,
+  "unique_cards": 363,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场万达广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场万达广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场万达广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场万达广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 14962,
+    "title_candidates": 1710,
+    "rating_anchors": 1179,
+    "unrated_anchors": 150,
+    "metadata_anchors": 1907,
+    "raw_anchors": 3236,
+    "matched_anchors": 3179,
+    "matched_anchor_titles": 1413,
+    "unmatched_anchors": 57,
+    "accepted_cards": 1413,
+    "rated_cards": 1160,
+    "unrated_cards": 146,
+    "missing_rating_cards": 107,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 39
+  },
+  "records_requiring_review": 22,
+  "research_eligible_records": 304,
+  "excluded_new_store_records": 21,
+  "excluded_unrated_records": 38,
+  "rated_records": 303,
+  "unrated_records": 38,
+  "missing_rating_records": 22
+}

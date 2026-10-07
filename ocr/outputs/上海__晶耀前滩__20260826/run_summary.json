@@ -1,0 +1,42 @@
+{
+  "mall_name": "晶耀前滩",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__晶耀前滩__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.09709434849972,
+    "frame_count": 7771,
+    "duration_sec": 131.49546666666666,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 165,
+  "card_observations": 767,
+  "unique_cards": 177,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__晶耀前滩__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__晶耀前滩__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__晶耀前滩__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__晶耀前滩__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9112,
+    "title_candidates": 945,
+    "rating_anchors": 723,
+    "unrated_anchors": 50,
+    "metadata_anchors": 993,
+    "raw_anchors": 1766,
+    "matched_anchors": 1712,
+    "matched_anchor_titles": 767,
+    "unmatched_anchors": 54,
+    "accepted_cards": 767,
+    "rated_cards": 696,
+    "unrated_cards": 48,
+    "missing_rating_cards": 23,
+    "missing_category_cards": 15,
+    "missing_floor_cards": 12
+  },
+  "records_requiring_review": 12,
+  "research_eligible_records": 158,
+  "excluded_new_store_records": 3,
+  "excluded_unrated_records": 16,
+  "rated_records": 157,
+  "unrated_records": 16,
+  "missing_rating_records": 4
+}

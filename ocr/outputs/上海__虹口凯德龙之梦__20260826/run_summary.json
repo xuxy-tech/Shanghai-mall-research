@@ -1,0 +1,42 @@
+{
+  "mall_name": "虹口凯德龙之梦",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__虹口凯德龙之梦__20260826.mp4",
+  "video_metadata": {
+    "fps": 56.900947639417964,
+    "frame_count": 17104,
+    "duration_sec": 300.59253333333334,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 356,
+  "card_observations": 1730,
+  "unique_cards": 364,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹口凯德龙之梦__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹口凯德龙之梦__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹口凯德龙之梦__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹口凯德龙之梦__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 20166,
+    "title_candidates": 2097,
+    "rating_anchors": 1588,
+    "unrated_anchors": 104,
+    "metadata_anchors": 2354,
+    "raw_anchors": 4046,
+    "matched_anchors": 3986,
+    "matched_anchor_titles": 1730,
+    "unmatched_anchors": 60,
+    "accepted_cards": 1730,
+    "rated_cards": 1566,
+    "unrated_cards": 103,
+    "missing_rating_cards": 61,
+    "missing_category_cards": 15,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 20,
+  "research_eligible_records": 336,
+  "excluded_new_store_records": 4,
+  "excluded_unrated_records": 24,
+  "rated_records": 334,
+  "unrated_records": 24,
+  "missing_rating_records": 6
+}

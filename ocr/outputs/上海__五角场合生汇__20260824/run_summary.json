@@ -1,0 +1,42 @@
+{
+  "mall_name": "五角场合生汇",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__五角场合生汇__20260824.mp4",
+  "video_metadata": {
+    "fps": 57.172814963997155,
+    "frame_count": 19122,
+    "duration_sec": 334.4596555555555,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 393,
+  "card_observations": 1936,
+  "unique_cards": 449,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场合生汇__20260824\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场合生汇__20260824\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场合生汇__20260824\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场合生汇__20260824\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 20682,
+    "title_candidates": 2429,
+    "rating_anchors": 1685,
+    "unrated_anchors": 137,
+    "metadata_anchors": 2671,
+    "raw_anchors": 4493,
+    "matched_anchors": 4396,
+    "matched_anchor_titles": 1936,
+    "unmatched_anchors": 97,
+    "accepted_cards": 1936,
+    "rated_cards": 1646,
+    "unrated_cards": 136,
+    "missing_rating_cards": 154,
+    "missing_category_cards": 17,
+    "missing_floor_cards": 8
+  },
+  "records_requiring_review": 29,
+  "research_eligible_records": 385,
+  "excluded_new_store_records": 29,
+  "excluded_unrated_records": 35,
+  "rated_records": 382,
+  "unrated_records": 35,
+  "missing_rating_records": 32
+}

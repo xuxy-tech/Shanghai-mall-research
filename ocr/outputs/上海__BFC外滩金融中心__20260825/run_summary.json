@@ -1,0 +1,42 @@
+{
+  "mall_name": "BFC外滩金融中心",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__BFC外滩金融中心__20260825.mp4",
+  "video_metadata": {
+    "fps": 59.28843781894581,
+    "frame_count": 9399,
+    "duration_sec": 158.53006666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 196,
+  "card_observations": 984,
+  "unique_cards": 226,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__BFC外滩金融中心__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__BFC外滩金融中心__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__BFC外滩金融中心__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__BFC外滩金融中心__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9872,
+    "title_candidates": 1223,
+    "rating_anchors": 845,
+    "unrated_anchors": 66,
+    "metadata_anchors": 1314,
+    "raw_anchors": 2225,
+    "matched_anchors": 2172,
+    "matched_anchor_titles": 984,
+    "unmatched_anchors": 53,
+    "accepted_cards": 984,
+    "rated_cards": 821,
+    "unrated_cards": 65,
+    "missing_rating_cards": 98,
+    "missing_category_cards": 30,
+    "missing_floor_cards": 26
+  },
+  "records_requiring_review": 7,
+  "research_eligible_records": 189,
+  "excluded_new_store_records": 18,
+  "excluded_unrated_records": 19,
+  "rated_records": 189,
+  "unrated_records": 19,
+  "missing_rating_records": 18
+}

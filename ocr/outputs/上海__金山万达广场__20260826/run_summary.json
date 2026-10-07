@@ -1,0 +1,42 @@
+{
+  "mall_name": "金山万达广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__金山万达广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 57.647174949696094,
+    "frame_count": 12537,
+    "duration_sec": 217.47813333333332,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 308,
+  "card_observations": 1564,
+  "unique_cards": 357,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金山万达广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金山万达广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金山万达广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金山万达广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 15005,
+    "title_candidates": 1807,
+    "rating_anchors": 1108,
+    "unrated_anchors": 443,
+    "metadata_anchors": 1932,
+    "raw_anchors": 3483,
+    "matched_anchors": 3401,
+    "matched_anchor_titles": 1564,
+    "unmatched_anchors": 82,
+    "accepted_cards": 1564,
+    "rated_cards": 1085,
+    "unrated_cards": 431,
+    "missing_rating_cards": 48,
+    "missing_category_cards": 49,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 21,
+  "research_eligible_records": 259,
+  "excluded_new_store_records": 10,
+  "excluded_unrated_records": 88,
+  "rated_records": 259,
+  "unrated_records": 88,
+  "missing_rating_records": 10
+}

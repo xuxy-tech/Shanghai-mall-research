@@ -1,0 +1,42 @@
+{
+  "mall_name": "紫荆广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__紫荆广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.50748730447425,
+    "frame_count": 8666,
+    "duration_sec": 145.62873333333334,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 159,
+  "card_observations": 759,
+  "unique_cards": 175,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__紫荆广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__紫荆广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__紫荆广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__紫荆广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9155,
+    "title_candidates": 940,
+    "rating_anchors": 682,
+    "unrated_anchors": 51,
+    "metadata_anchors": 1033,
+    "raw_anchors": 1766,
+    "matched_anchors": 1730,
+    "matched_anchor_titles": 759,
+    "unmatched_anchors": 36,
+    "accepted_cards": 759,
+    "rated_cards": 669,
+    "unrated_cards": 50,
+    "missing_rating_cards": 40,
+    "missing_category_cards": 11,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 14,
+  "research_eligible_records": 156,
+  "excluded_new_store_records": 8,
+  "excluded_unrated_records": 11,
+  "rated_records": 156,
+  "unrated_records": 11,
+  "missing_rating_records": 8
+}

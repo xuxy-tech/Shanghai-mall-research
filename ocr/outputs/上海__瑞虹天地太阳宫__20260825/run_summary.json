@@ -1,0 +1,42 @@
+{
+  "mall_name": "瑞虹天地太阳宫",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__瑞虹天地太阳宫__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.465465173448806,
+    "frame_count": 14288,
+    "duration_sec": 248.63628888888888,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 342,
+  "card_observations": 1650,
+  "unique_cards": 427,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地太阳宫__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地太阳宫__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地太阳宫__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地太阳宫__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 18510,
+    "title_candidates": 2032,
+    "rating_anchors": 1413,
+    "unrated_anchors": 153,
+    "metadata_anchors": 2232,
+    "raw_anchors": 3798,
+    "matched_anchors": 3731,
+    "matched_anchor_titles": 1650,
+    "unmatched_anchors": 67,
+    "accepted_cards": 1650,
+    "rated_cards": 1396,
+    "unrated_cards": 147,
+    "missing_rating_cards": 107,
+    "missing_category_cards": 21,
+    "missing_floor_cards": 7
+  },
+  "records_requiring_review": 24,
+  "research_eligible_records": 369,
+  "excluded_new_store_records": 20,
+  "excluded_unrated_records": 38,
+  "rated_records": 366,
+  "unrated_records": 38,
+  "missing_rating_records": 23
+}

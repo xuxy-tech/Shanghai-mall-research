@@ -1,0 +1,23 @@
+priority,active,action,field,match_type,pattern,reason,notes
+10,TRUE,exclude,merchant_name_normalized,exact,乐摩吧,excluded_brand,明确排除的共享按摩椅项目
+20,TRUE,exclude,category_raw,exact,停车场,public_facility,停车场不是研究商户
+21,TRUE,exclude,merchant_name_normalized,regex,(?:^|[-·])停车场$,public_facility,商场停车场
+22,TRUE,exclude,merchant_name_normalized,regex,(公共厕所|卫生间|洗手间|母婴室|母婴服务室|信息中心|问询处)$,public_facility,明确公共设施
+23,TRUE,exclude,category_raw,regex,^(公共厕所|卫生间|洗手间|母婴室|信息中心|服务台)$,public_facility,明确公共设施分类
+30,TRUE,exclude,merchant_name_normalized,regex,(快闪店|品牌快闪|POP[- ]?UP|限时店),temporary_popup,标题明确为快闪或限时店
+31,TRUE,exclude,category_raw,regex,(快闪店|品牌快闪|POP[- ]?UP|限时店),temporary_popup,分类明确为快闪或限时店
+40,TRUE,exclude,category_raw,regex,(^展览$|艺术展览|临时展览|商业展览|展览展示|文化展览),temporary_exhibition,明确展览分类；不匹配DIY和艺术培训
+50,TRUE,exclude,category_raw,regex,^停车场\.*$,non_tenant_facility,停车场不占租赁铺位
+51,TRUE,exclude,category_raw,regex,^(及)?充电站(/桩)?\.*$,non_tenant_facility,汽车充电站桩含OCR截断变体
+52,TRUE,exclude,category_raw,regex,^充电桩\.*$,non_tenant_facility,汽车充电桩
+53,TRUE,exclude,category_raw,regex,^智能自助设施\.*$,non_tenant_facility,自动售货机与自助柜
+54,TRUE,exclude,category_raw,regex,^(景区设施|公园景点售票处|售票点)\.*$,non_tenant_facility,游客中心与售票服务台
+55,TRUE,exclude,category_raw,regex,^智能按.*$,non_tenant_facility,共享按摩椅分类及其OCR截断变体
+56,TRUE,exclude,category_raw,regex,^智(能)?\.*$,non_tenant_facility,共享按摩椅分类严重截断
+57,TRUE,exclude,category_raw,regex,^(充|及充)\.*$,non_tenant_facility,充电站分类严重截断
+58,TRUE,exclude,category_raw,regex,^停\.*$,non_tenant_facility,停车场分类严重截断
+60,TRUE,exclude,category_raw,regex,^(证券投资|保险公司|人力资源|房产中介|其他金融|专利/商标/版权代理)\.*$,office_tenant,写字楼办公租户非商场商户
+61,TRUE,exclude,category_raw,regex,^(营业网点|银行|ATM自助网点)\.*$,office_tenant,银行网点与ATM；通信营业厅不受影响
+62,TRUE,exclude,merchant_name_normalized,regex,(律师事务所|会计师事务所|资产管理有限|基金管理有限|期货有限|保险经纪|信托),office_tenant,明确办公性质机构名
+70,TRUE,exclude,category_raw,regex,^(酒店|酒店婚宴(/宴会)?|豪华型|经济型|舒适型|服务式公寓)\.*$,out_of_scope_format,酒店与公寓不是购物中心铺位
+71,TRUE,exclude,category_raw,regex,^综合经销商\.*$,out_of_scope_format,汽车4S与展厅

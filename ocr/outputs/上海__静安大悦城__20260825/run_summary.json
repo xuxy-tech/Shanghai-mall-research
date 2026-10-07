@@ -1,0 +1,42 @@
+{
+  "mall_name": "静安大悦城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__静安大悦城__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.67770410425511,
+    "frame_count": 11317,
+    "duration_sec": 196.211,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 268,
+  "card_observations": 1364,
+  "unique_cards": 318,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安大悦城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安大悦城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安大悦城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安大悦城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 14621,
+    "title_candidates": 1678,
+    "rating_anchors": 1235,
+    "unrated_anchors": 97,
+    "metadata_anchors": 1982,
+    "raw_anchors": 3314,
+    "matched_anchors": 3221,
+    "matched_anchor_titles": 1364,
+    "unmatched_anchors": 93,
+    "accepted_cards": 1364,
+    "rated_cards": 1202,
+    "unrated_cards": 93,
+    "missing_rating_cards": 69,
+    "missing_category_cards": 18,
+    "missing_floor_cards": 61
+  },
+  "records_requiring_review": 19,
+  "research_eligible_records": 290,
+  "excluded_new_store_records": 7,
+  "excluded_unrated_records": 21,
+  "rated_records": 289,
+  "unrated_records": 21,
+  "missing_rating_records": 8
+}

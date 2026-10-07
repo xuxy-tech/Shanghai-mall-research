@@ -1,0 +1,42 @@
+{
+  "mall_name": "中信泰富广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__中信泰富广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 57.97135811836115,
+    "frame_count": 2608,
+    "duration_sec": 44.98773333333333,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 62,
+  "card_observations": 306,
+  "unique_cards": 80,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__中信泰富广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__中信泰富广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__中信泰富广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__中信泰富广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 3061,
+    "title_candidates": 371,
+    "rating_anchors": 277,
+    "unrated_anchors": 13,
+    "metadata_anchors": 385,
+    "raw_anchors": 675,
+    "matched_anchors": 670,
+    "matched_anchor_titles": 306,
+    "unmatched_anchors": 5,
+    "accepted_cards": 306,
+    "rated_cards": 275,
+    "unrated_cards": 13,
+    "missing_rating_cards": 18,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 5,
+  "research_eligible_records": 71,
+  "excluded_new_store_records": 4,
+  "excluded_unrated_records": 5,
+  "rated_records": 71,
+  "unrated_records": 5,
+  "missing_rating_records": 4
+}

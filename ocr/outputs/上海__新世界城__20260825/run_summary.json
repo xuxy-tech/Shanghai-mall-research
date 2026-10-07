@@ -1,0 +1,42 @@
+{
+  "mall_name": "新世界城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__新世界城__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.729503432096465,
+    "frame_count": 12691,
+    "duration_sec": 216.09241111111112,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 284,
+  "card_observations": 1557,
+  "unique_cards": 383,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新世界城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新世界城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新世界城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新世界城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12695,
+    "title_candidates": 1792,
+    "rating_anchors": 1301,
+    "unrated_anchors": 204,
+    "metadata_anchors": 2072,
+    "raw_anchors": 3577,
+    "matched_anchors": 3501,
+    "matched_anchor_titles": 1557,
+    "unmatched_anchors": 76,
+    "accepted_cards": 1557,
+    "rated_cards": 1275,
+    "unrated_cards": 197,
+    "missing_rating_cards": 85,
+    "missing_category_cards": 5,
+    "missing_floor_cards": 1
+  },
+  "records_requiring_review": 16,
+  "research_eligible_records": 320,
+  "excluded_new_store_records": 13,
+  "excluded_unrated_records": 50,
+  "rated_records": 319,
+  "unrated_records": 50,
+  "missing_rating_records": 14
+}

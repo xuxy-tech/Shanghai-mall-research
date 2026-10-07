@@ -1,0 +1,42 @@
+{
+  "mall_name": "百联又一城",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__百联又一城__20260825.mp4",
+  "video_metadata": {
+    "fps": 53.41875115569414,
+    "frame_count": 9100,
+    "duration_sec": 170.35216666666665,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 223,
+  "card_observations": 1143,
+  "unique_cards": 279,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联又一城__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联又一城__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联又一城__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联又一城__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 9903,
+    "title_candidates": 1361,
+    "rating_anchors": 993,
+    "unrated_anchors": 91,
+    "metadata_anchors": 1432,
+    "raw_anchors": 2516,
+    "matched_anchors": 2452,
+    "matched_anchor_titles": 1143,
+    "unmatched_anchors": 64,
+    "accepted_cards": 1143,
+    "rated_cards": 965,
+    "unrated_cards": 90,
+    "missing_rating_cards": 88,
+    "missing_category_cards": 0,
+    "missing_floor_cards": 2
+  },
+  "records_requiring_review": 26,
+  "research_eligible_records": 235,
+  "excluded_new_store_records": 19,
+  "excluded_unrated_records": 25,
+  "rated_records": 234,
+  "unrated_records": 25,
+  "missing_rating_records": 20
+}

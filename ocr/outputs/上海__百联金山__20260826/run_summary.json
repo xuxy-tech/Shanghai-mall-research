@@ -1,0 +1,42 @@
+{
+  "mall_name": "百联金山",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__百联金山__20260826.mp4",
+  "video_metadata": {
+    "fps": 59.1499870586166,
+    "frame_count": 6894,
+    "duration_sec": 116.55116666666666,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 155,
+  "card_observations": 777,
+  "unique_cards": 182,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联金山__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联金山__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联金山__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联金山__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 7917,
+    "title_candidates": 912,
+    "rating_anchors": 590,
+    "unrated_anchors": 165,
+    "metadata_anchors": 995,
+    "raw_anchors": 1750,
+    "matched_anchors": 1706,
+    "matched_anchor_titles": 777,
+    "unmatched_anchors": 44,
+    "accepted_cards": 777,
+    "rated_cards": 572,
+    "unrated_cards": 162,
+    "missing_rating_cards": 43,
+    "missing_category_cards": 13,
+    "missing_floor_cards": 3
+  },
+  "records_requiring_review": 8,
+  "research_eligible_records": 132,
+  "excluded_new_store_records": 9,
+  "excluded_unrated_records": 41,
+  "rated_records": 132,
+  "unrated_records": 41,
+  "missing_rating_records": 9
+}

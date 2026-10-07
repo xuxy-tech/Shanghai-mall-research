@@ -1,0 +1,42 @@
+{
+  "mall_name": "正大广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__正大广场__20260826.mp4",
+  "video_metadata": {
+    "fps": 58.6501282901529,
+    "frame_count": 12214,
+    "duration_sec": 208.25188888888889,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 250,
+  "card_observations": 1254,
+  "unique_cards": 252,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大广场__20260826\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大广场__20260826\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大广场__20260826\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大广场__20260826\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 13298,
+    "title_candidates": 1616,
+    "rating_anchors": 984,
+    "unrated_anchors": 167,
+    "metadata_anchors": 1713,
+    "raw_anchors": 2864,
+    "matched_anchors": 2823,
+    "matched_anchor_titles": 1254,
+    "unmatched_anchors": 41,
+    "accepted_cards": 1254,
+    "rated_cards": 971,
+    "unrated_cards": 162,
+    "missing_rating_cards": 121,
+    "missing_category_cards": 9,
+    "missing_floor_cards": 4
+  },
+  "records_requiring_review": 7,
+  "research_eligible_records": 199,
+  "excluded_new_store_records": 17,
+  "excluded_unrated_records": 36,
+  "rated_records": 198,
+  "unrated_records": 36,
+  "missing_rating_records": 18
+}

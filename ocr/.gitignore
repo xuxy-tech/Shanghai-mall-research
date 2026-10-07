@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+artifacts/
+.artifact_validation/
+models/cache/
+outputs/*/evidence/
+outputs/*/raw_ocr/
+input_videos/*.mp4
+input_videos/*.mov
+input_videos/*.m4v

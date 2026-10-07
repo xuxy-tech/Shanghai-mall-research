@@ -1,0 +1,323 @@
+{
+  "run_status": "current",
+  "generated_at": "2026-08-27T10:15:19+08:00",
+  "pipeline_name": "mall_merchant_master",
+  "pipeline_version": "2026-08",
+  "rule_version": "2026-08-26",
+  "config": {
+    "pipeline_name": "mall_merchant_master",
+    "pipeline_version": "2026-08",
+    "rule_version": "2026-08-26",
+    "input_root": "video_ocr_pipeline/outputs",
+    "input_filename": "merchant_cards.csv",
+    "output_dir": "merchant_data_pipeline/outputs/current",
+    "master_output": "merchant_data_pipeline/master_stores.csv",
+    "include_malls": [],
+    "exclusion": {
+      "exclude_exact_new_store_badge": false,
+      "new_store_exact_tokens": [
+        "新店"
+      ],
+      "exclude_explicit_unrated": false
+    },
+    "category": {
+      "exclude_unmapped": true
+    },
+    "deduplication": {
+      "enabled": true,
+      "keep_confirmed_different_floors": true,
+      "merge_when_floor_missing": true
+    },
+    "name_consistency": {
+      "enabled": true,
+      "auto_correct": true,
+      "max_edit_distance": 1,
+      "min_similarity": 0.88,
+      "min_reference_malls": 3,
+      "max_variant_malls": 1,
+      "candidate_min_reference_malls": 2,
+      "protected_terms": [
+        "男装",
+        "女装",
+        "儿童",
+        "旗舰店",
+        "体验店",
+        "高级体验店",
+        "家庭",
+        "床垫"
+      ]
+    }
+  },
+  "input_files": [
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__BFC外滩金融中心__20260825\\merchant_cards.csv",
+      "sha256": "2c8e2795cf31ac511e762631d3ddf5994612a36340dc0a83dce0c72d14f54feb"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__K11购物艺术中心__20260825\\merchant_cards.csv",
+      "sha256": "af0f8fcc09f21ef89501d0ccd6054bb602241e004826dfafb95e0bc165878b47"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__ONE ITC__20260825\\merchant_cards.csv",
+      "sha256": "5aab87fd1806cc181a6261311e73bdb7c85fe665c0c8b7bb93eebfad7615c307"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__万达茂__20260826\\merchant_cards.csv",
+      "sha256": "cf40ca8801c4c5215275dbd0dcc0ca47d5a05d25797c2e58546582889c051a1b"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海久光百货__20260825\\merchant_cards.csv",
+      "sha256": "9a0d3b1bf67e337b04f14c6b46623202bb5ae961fe0ca881be7de3d246b2ca6f"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海恒隆广场__20260825\\merchant_cards.csv",
+      "sha256": "1bbc080bc48a95176d6648bedc93422095d4a70a60a82654d4b3b63092b4b2e2"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海来福士广场__20260825\\merchant_cards.csv",
+      "sha256": "dd64f3391fbdf0f2fef1a84fd5131c61190969044867b422f2f67a944ddab187"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海环球港__20260826\\merchant_cards.csv",
+      "sha256": "3db7c2580eb262566249887c7a7ca5b5cf188d3d1655c22de6b82a3e4cb87d5b"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海荟聚中心__20260826\\merchant_cards.csv",
+      "sha256": "ff953ecd2b6060741485fe6155c57048100860ed5fcd967cb1cdd6659d074b09"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博天地__20260826\\merchant_cards.csv",
+      "sha256": "fa2aff4de16d3878401146719fc45c3abd20b6fd8ea7b1568b173c424ed08a55"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世博源__20260826\\merchant_cards.csv",
+      "sha256": "cf5c302b26ac044cdea0e4c6d1380fb44f4360b35e0c851f6395a27e1d4b35ab"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__世贸广场__20260825\\merchant_cards.csv",
+      "sha256": "9bcf6df14a68afd5864374f0ba4be2df1cdeb2a8e5586576ea741aefe30fe6f0"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__中信泰富广场__20260825\\merchant_cards.csv",
+      "sha256": "25524ec66f6c79d7c44194ac0319b9d7b79188b701a4c4a348c2867923068bd5"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场万达广场__20260825\\merchant_cards.csv",
+      "sha256": "a53b06fb69789b092cb5f48582f142d0062bc7968aaeed54c25ec43e291c46cb"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__五角场合生汇__20260824\\merchant_cards.csv",
+      "sha256": "2b94959e163aff26cf024ed5803062c5ea302e896db6e6c67593a9b9758860df"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__光启城__20260825\\merchant_cards.csv",
+      "sha256": "4741adc8792d8134d90c60595f37f278b043fc03bd84a3218edd8e7501104fc0"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__兴业太古汇__20260825\\merchant_cards.csv",
+      "sha256": "3df81021a342a9729f9a016b9093f36e8ba06dcab4aee162831efb19e2608bce"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__凯德晶萃广场__20260825\\merchant_cards.csv",
+      "sha256": "b580bf030b72b557076cff2014cb13fc91827042156b4dcc9d82ea1f56ec570f"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__前滩太古里__20260826\\merchant_cards.csv",
+      "sha256": "b92d6693235c971650458bae8ac045dcac5a6de3ac590f854c36be83b0719bae"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__北外滩来福士__20260826\\merchant_cards.csv",
+      "sha256": "0ff8ea1c404c952083aef17966d8a921d9e73b99b9e6108918c6cd83cdff5437"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__国金ifc商场__20260826\\merchant_cards.csv",
+      "sha256": "21c24917c4f3aa34e501aef50c324a1e7e0d664de26d3ff4bb18d43a7347fbb8"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大宁久光中心__20260824\\merchant_cards.csv",
+      "sha256": "26832951c6fd120ccacebf90df7156769b3d628c7aa0c7f173384d72ae3ad4ff"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__大融城__20260825\\merchant_cards.csv",
+      "sha256": "bcdfe6de975a7c1a215fa4c7ac1eb38b57a3ee2f246bc78aa46aeba128aafe27"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤宝龙城市广场__20260826\\merchant_cards.csv",
+      "sha256": "43321df882f0ba530f0202363384fa6a7832fe2ffe2d605b45b39ffba423c4d7"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__奉贤龙湖天街__20260826\\merchant_cards.csv",
+      "sha256": "89a3919e48570500a1bcb5ddd74f698af75d85390fb96ad55f818a72e50b6db0"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__尚嘉中心__20260826\\merchant_cards.csv",
+      "sha256": "b6457e0653654fada9c72678188fbc6b178632ee30fff31bfd8b7ba3409a57e7"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__崇明万达广场__20260826\\merchant_cards.csv",
+      "sha256": "28ed0570a2259338a730ad2ea674497f7c49c4de400a6890df273151921bbfbc"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__控江旭辉MALL__20260826\\merchant_cards.csv",
+      "sha256": "ca34c67e0ab8b2632336e7fbec6ccbfdba6e3a6d9090a729989a6143b49465c2"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新世界城__20260825\\merchant_cards.csv",
+      "sha256": "1f2982b1a75a7b467b6a64ac8faa3f8b4b9655b64197fdea70b32ec3c5075a22"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__新天地广场__20260825\\merchant_cards.csv",
+      "sha256": "ad4a171767ddda24a28f75bba046db1a141d609a293dee362dbe202f079ace6c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__晶耀前滩__20260826\\merchant_cards.csv",
+      "sha256": "9ab5deb13caac66ff741a54775e4fe4c2471fc20b359f14f2462ca9a0623ecc6"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大乐城__20260825\\merchant_cards.csv",
+      "sha256": "3e976e8120af905ab20b54fe78d164e1f2789b3dd10fc37dcc19d4ca72f7f4de"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__正大广场__20260826\\merchant_cards.csv",
+      "sha256": "216da6e575721f1c40bc4274997cd1eee494ea081e75e453b29c5980e57bb3e5"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__浦东嘉里中心__20260826\\merchant_cards.csv",
+      "sha256": "68589aa8ab4c64c53cb81beab147d357b96b7d7239336b779e920f44e543c370"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__港汇恒隆广场__20260825\\merchant_cards.csv",
+      "sha256": "c08fdc7347df7c7a78492e82b725d6264211da4243409da934f434fa3cd5c6c2"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地太阳宫__20260825\\merchant_cards.csv",
+      "sha256": "fff6bda76602ed46548d6d3f7b1fdc4778c346c7b3083f8279dae3c3bba86fdd"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__瑞虹天地月亮湾__20260825\\merchant_cards.csv",
+      "sha256": "ec78bf7380fd802a81cab001b47f3af84c7579ecd87bc3d0f6e94e914b6a2720"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__白玉兰广场__20260826\\merchant_cards.csv",
+      "sha256": "94fbca320e544a3fdc543e5238a34f8d016ae742a99e3d01b52368aa7340159f"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联又一城__20260825\\merchant_cards.csv",
+      "sha256": "a077e9aa3cb0935d84cdb178cd71d00783fab54b066ee1528e10cbc2f9dbf50a"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__百联金山__20260826\\merchant_cards.csv",
+      "sha256": "7b4bceb42ffba52ebe48a02e3ecc8f4a6e32b98288ce2c3af858836edaff856d"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__真如环宇城__20260825\\merchant_cards.csv",
+      "sha256": "ce3356e1b1e35f730565c7c96111821e77fcb860bae12fab57dd3a82050d8753"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一八佰伴__20260826\\merchant_cards.csv",
+      "sha256": "fc36def139b23585fcf5a6df17d51360d302065ebf56e112db09ab8e1aaa600c"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__第一百货__20260825\\merchant_cards.csv",
+      "sha256": "9670b37a94ac6c060dd367d8b86e8554b59ef322f01d5cfd53fe6842ae061ed4"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__紫荆广场__20260826\\merchant_cards.csv",
+      "sha256": "e1471c532a2c92617d60988bc6e7a37b0906ee0389129f5c23c15dfbc2ef6561"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__绿地缤纷城__20260825\\merchant_cards.csv",
+      "sha256": "368a253f182933754c0bf729277c694e3075c48f3b7ce1119f71427ec0712bf9"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__美罗城__20260825\\merchant_cards.csv",
+      "sha256": "2e1656e393d714a6baf1a96bfc0bdf5e11c804ccf27b758f7c5c697e02bfdc0e"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__芮欧百货__20260825\\merchant_cards.csv",
+      "sha256": "42a409d5d8b13a8d0f285eb531a99195f4d7c6523aa9f9a49282c0e002c5e7a7"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹口凯德龙之梦__20260826\\merchant_cards.csv",
+      "sha256": "5c226bac5eaf428b71659d3f2706c7a67ce81e395ae49341d28e94c811853450"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥南丰城__20260826\\merchant_cards.csv",
+      "sha256": "6168126bd512dfef4737c093b0b0ec63443f96f94abe1827bd0bc25f715dc9da"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__虹桥新天地__20260826\\merchant_cards.csv",
+      "sha256": "59feb2ce0c55f71174e9edad2dc8fc7c8bbd9bb6163906b9b890245465f98632"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__西岸梦中心__20260825\\merchant_cards.csv",
+      "sha256": "8c0ec9ea2f37f80893f352df5da2c251bbc0301ca1cfb799476b94e7b70957ea"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金山万达广场__20260826\\merchant_cards.csv",
+      "sha256": "9f5f3cc02799a41d492be3d8fee32515fa8fc657b69570c0b1c8947f68eeb457"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__金虹桥__20260826\\merchant_cards.csv",
+      "sha256": "f3227adee98cee4cdfcf40ab2d117dedd1e3d96aa4dff1c3470412aac62d71a8"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长宁来福士__20260825\\merchant_cards.csv",
+      "sha256": "165774017c459a80bb0e3bc1efa9c8e3c77cf361cf7c35641e556d6beccada28"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长泰广场__20260826\\merchant_cards.csv",
+      "sha256": "2f69dbe7f8c9e378fafe2344c09ca86c3ba5f825e67bd0c63ca05acfebc93528"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__长风大悦城__20260826\\merchant_cards.csv",
+      "sha256": "b14b55ead0fcaeab95032958dc3d80d074fb383137dc9e872dbc29253e154e4f"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__陆家嘴中心L+MALL__20260826\\merchant_cards.csv",
+      "sha256": "131ed9bf34b24b564621b29bbe259e2c32401a0363d4ddc178533dc22c16c945"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__青浦吾悦广场__20260826\\merchant_cards.csv",
+      "sha256": "e6cd8e05f8f1545fac4a20ef38b630b463b314d2443c6cc63c80c3dfd6408eb1"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安嘉里中心__20260825\\merchant_cards.csv",
+      "sha256": "88885c34a26b25e99395a164f04238474290ab55cc2f181ad1e6e5e905b57e6d"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__静安大悦城__20260825\\merchant_cards.csv",
+      "sha256": "fad5ffaaf37f4091c4f255c7ade6e85af481b94f8df004b6da5afeac947a00c8"
+    },
+    {
+      "path": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__香港广场__20260825\\merchant_cards.csv",
+      "sha256": "68a4df434f37099a190cfa07176e659db9419dccae209f82a41b74cbadfe799d"
+    }
+  ],
+  "counts": {
+    "malls": 61,
+    "source_records": 15522,
+    "excluded_records": 731,
+    "eligible_before_dedup": 14791,
+    "final_store_instances": 14779,
+    "duplicate_groups": 64,
+    "name_correction_candidates": 15,
+    "name_corrections_applied": 8,
+    "unmapped_categories": 142,
+    "unmapped_source_records": 677
+  },
+  "master_output": "C:\\Users\\admin\\Desktop\\商场聚类\\merchant_data_pipeline\\master_stores.csv",
+  "outputs": [
+    "excluded_records.csv",
+    "duplicate_audit.csv",
+    "name_correction_candidates.csv",
+    "name_corrections_applied.csv",
+    "category_unmapped.csv",
+    "category_summary.csv",
+    "mall_metrics.csv",
+    "mall_similarity.csv",
+    "brand_summary.csv",
+    "BUILD_REPORT.md",
+    "run_manifest.json"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "mall_name": "上海恒隆广场",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__上海恒隆广场__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.46280851638564,
+    "frame_count": 5656,
+    "duration_sec": 96.74526666666667,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 107,
+  "card_observations": 597,
+  "unique_cards": 146,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海恒隆广场__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海恒隆广场__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海恒隆广场__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海恒隆广场__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 4313,
+    "title_candidates": 706,
+    "rating_anchors": 485,
+    "unrated_anchors": 72,
+    "metadata_anchors": 805,
+    "raw_anchors": 1362,
+    "matched_anchors": 1335,
+    "matched_anchor_titles": 597,
+    "unmatched_anchors": 27,
+    "accepted_cards": 597,
+    "rated_cards": 475,
+    "unrated_cards": 72,
+    "missing_rating_cards": 50,
+    "missing_category_cards": 16,
+    "missing_floor_cards": 0
+  },
+  "records_requiring_review": 9,
+  "research_eligible_records": 123,
+  "excluded_new_store_records": 9,
+  "excluded_unrated_records": 14,
+  "rated_records": 121,
+  "unrated_records": 14,
+  "missing_rating_records": 11
+}

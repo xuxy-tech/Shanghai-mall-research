@@ -1,0 +1,42 @@
+{
+  "mall_name": "上海久光百货",
+  "source_video": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\input_videos\\上海__上海久光百货__20260825.mp4",
+  "video_metadata": {
+    "fps": 58.91070735167884,
+    "frame_count": 13735,
+    "duration_sec": 233.14946666666665,
+    "width": 578,
+    "height": 1280
+  },
+  "keyframes": 299,
+  "card_observations": 1656,
+  "unique_cards": 420,
+  "csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海久光百货__20260825\\merchant_cards.csv",
+  "research_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海久光百货__20260825\\research_merchants.csv",
+  "observations_csv": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海久光百货__20260825\\card_observations.csv",
+  "recall_audit": "C:\\Users\\admin\\Desktop\\商场聚类\\video_ocr_pipeline\\outputs\\上海__上海久光百货__20260825\\recall_audit.json",
+  "recall_totals": {
+    "ocr_tokens": 12478,
+    "title_candidates": 1857,
+    "rating_anchors": 1582,
+    "unrated_anchors": 89,
+    "metadata_anchors": 2209,
+    "raw_anchors": 3880,
+    "matched_anchors": 3779,
+    "matched_anchor_titles": 1656,
+    "unmatched_anchors": 101,
+    "accepted_cards": 1656,
+    "rated_cards": 1543,
+    "unrated_cards": 83,
+    "missing_rating_cards": 30,
+    "missing_category_cards": 2,
+    "missing_floor_cards": 4
+  },
+  "records_requiring_review": 31,
+  "research_eligible_records": 380,
+  "excluded_new_store_records": 9,
+  "excluded_unrated_records": 31,
+  "rated_records": 380,
+  "unrated_records": 31,
+  "missing_rating_records": 9
+}
